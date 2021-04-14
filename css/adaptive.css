@@ -1,0 +1,64 @@
+@media (max-width: 991px) {
+
+	.intro_margin-padding {
+	    margin: 0 0 50px;
+	}
+
+	.page-footer_padding {
+	    padding: 20px 0;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.page-header,
+	.page-footer {  
+	    text-align: center;
+	}
+
+	.page-header_margin-padding {
+	    margin: 0 0 80px;
+	}
+
+	.promo_margin {
+		margin-bottom: 135px;
+  }
+
+	.portfolio__title {
+		margin: 0 0 30px;
+	}
+}
+
+@media (max-width: 575px) {	
+
+	.page-header_margin-padding {
+		margin: 0 0 50px;
+  }
+
+	.promo_margin {
+	    margin-bottom: 100px;
+	}
+
+	.button {
+		display: block;
+		width: 100%;		
+	}
+
+}
+
+@media (max-width: 557px) {
+
+	.page-header_margin-padding {
+	    margin: 0 0 155px;
+	    padding: 30px 0 0;
+	}
+
+	.page-header__email,
+	.page-header__phone {
+	    margin-left: 36px;
+	}
+
+	.page-header_margin-padding {
+	    margin: 0 0 50px;
+	}
+}
