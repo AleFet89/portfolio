@@ -5,7 +5,7 @@ var html5Tags = ['section', 'article', 'main', 'aside',
                  'details', 'summary', 'audio', 'video',
                  'source', 'datalist', 'meter', 'progress',
                  'output', 'time', 'mark'];
-for (var i = 0; i < html5Tags.length; i++) {
+for (i = 0; i < html5Tags.length; i++) {
     document.createElement(html5Tags[i]);
 }
 
@@ -135,10 +135,10 @@ function showSlides(n) {
   if (n < 1) {
   	slideIndex = slides.length;
   }
-  for (var i = 0; i < slides.length; i++) {
+  for (i = 0; i < slides.length; i++) {
       slides[i].style.display = 'none';
   }
-  for (var i = 0; i < radioButtons.length; i++) {
+  for (i = 0; i < radioButtons.length; i++) {
       radioButtons[i].className = radioButtons[i].className.replace(' slide-item__toggle_active', '');
   }
   slides[slideIndex - 1].style.display = 'block';
