@@ -1,19 +1,19 @@
 //  -------------Кроссбраузерность IE 9< -------------
-var html5Tags = ['section', 'article', 'main', 'aside', 
+let html5Tags = ['section', 'article', 'main', 'aside', 
                  'header', 'footer', 'nav', 'figure', 
                  'figcaption', 'address', 'canvas', 
                  'details', 'summary', 'audio', 'video',
                  'source', 'datalist', 'meter', 'progress',
                  'output', 'time', 'mark'];
-for (i = 0; i < html5Tags.length; i++) {
+for (let i = 0; i < html5Tags.length; i++) {
     document.createElement(html5Tags[i]);
 }
 
 //  ------------- Попап входа в личный кабинет   -------------
-var popupFormWrapper = document.querySelector('.fixed-overlay-form');
-var popupForm = document.querySelector('.modal-authorization-form');
-var formOpenPopupButton = document.querySelector('.modal-form-open-btn');
-var formClosePopupButton = popupForm.querySelector('.modal-form-close-btn');
+let popupFormWrapper = document.querySelector('.fixed-overlay-form');
+let popupForm = document.querySelector('.modal-authorization-form');
+let formOpenPopupButton = document.querySelector('.modal-form-open-btn');
+let formClosePopupButton = popupForm.querySelector('.modal-form-close-btn');
 
 formOpenPopupButton.addEventListener('click', function (evt) {
   evt.preventDefault();
@@ -27,16 +27,17 @@ formClosePopupButton.addEventListener('click', function () {
 });
 
 document.addEventListener('keydown', function (evt) {
-  if (evt.keyCode === 27) {
+	if (evt.keyCode === 27) {
+	 popupFormWrapper.classList.remove('modal-form-show');
     popupForm.classList.remove('modal-form-show');
   }
 });
 
 //  ------------- Попап карты "Как проехать"   -------------
-var popupMapWrapper = document.querySelector('.fixed-overlay-map');
-var popupMap = document.querySelector('.modal-map');
-var mapOpenPopupButtons = document.querySelectorAll('.modal-map-open-btn');
-var mapClosePopupButton = popupMap.querySelector('.modal-map-close-btn');
+let popupMapWrapper = document.querySelector('.fixed-overlay-map');
+let popupMap = document.querySelector('.modal-map');
+let mapOpenPopupButtons = document.querySelectorAll('.modal-map-open-btn');
+let mapClosePopupButton = popupMap.querySelector('.modal-map-close-btn');
 
 mapOpenPopupButtons[0].addEventListener('click', function (evt) {
   evt.preventDefault();
@@ -57,6 +58,7 @@ mapClosePopupButton.addEventListener('click', function () {
 
 document.addEventListener('keydown', function (evt) {
   if (evt.keyCode === 27) {
+	  popupMapWrapper.classList.remove('modal-map-show');
     popupMap.classList.remove('modal-map-show');
   }
 });

@@ -46,6 +46,13 @@
 	font-style: normal;
  }
 
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -89,6 +96,13 @@ body {
     font-size: calc(22px + 6 * ((100vw - 320px) / (928 - 320)));
     line-height: 40px;
     font-weight: 500;
+}
+
+.colored {
+	color: #288be6;	
+	-webkit-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 }
 
 .button {
