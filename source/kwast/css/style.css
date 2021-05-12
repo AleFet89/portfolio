@@ -628,7 +628,6 @@ body {
   color: rgba(0, 0, 0, 0.3);
   background-color: #e5b66c;
   text-transform: uppercase;
-  outline: none;
   border: none;
 }
 
@@ -693,6 +692,11 @@ body {
 
 .custom-checkbox:hover + label:hover::before {
   background-color: #d9ad66;
+}
+
+.custom-checkbox:focus + label::before,
+.custom-checkbox:checked:focus + label::before {
+	background-color: #9c7432;
 }
 
 .custom-checkbox:checked + label::before {  

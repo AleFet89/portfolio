@@ -533,7 +533,6 @@ body.lock {
   background-color: #fb565a;
   overflow-wrap: break-word;
   border: none;
-  outline: none;
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -759,7 +758,6 @@ body.lock {
   background-color: #ffffff;
   border-radius: 50%;
   border: none;
-  outline: none;
   cursor: pointer;
 }
 

@@ -587,7 +587,6 @@ body {
   padding: 0 16px;
   font-size: 15px;
   line-height: 19px;
-  outline: none;
   border: none;
 }
 
@@ -661,7 +660,8 @@ body {
   background-color: transparent;
 }
 
-.form__custom-checkbox:hover + label:hover::before {
+.form__custom-checkbox:hover + label:hover::before,
+.form__custom-checkbox:focus + label::before {
   background-color: #ef483e;
 }
 
@@ -776,7 +776,6 @@ body {
   padding: 13px 23px 13px 14px;
   color: #cfcfcf;
   resize: none;
-  outline: none;
   border: none;
 }
 
@@ -866,7 +865,6 @@ body {
   padding: 14px 9px 14px 14px;
   line-height: 18px;
   color: #bcbec7;
-  outline: none;
   border: none;
   -webkit-appearance: none;
      -moz-appearance: none;

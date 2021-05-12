@@ -107,7 +107,8 @@ body {
   cursor: pointer;
 }
 
-.section-btn:hover {
+.section-btn:hover,
+.section-btn:focus {
   background-color: #663d15;
 }
 
@@ -245,7 +246,8 @@ nav .main-nav-btn {
       flex-basis: 10%;
 }
 
-.main-nav-btn:hover {
+.main-nav-btn:hover.
+.main-nav-btn:focus {
   background-color: #242424;
 }
 
@@ -279,7 +281,6 @@ nav .main-nav-btn {
   text-transform: uppercase; 
   cursor: pointer; 
   border: none;
-  outline: none;
   overflow-wrap: break-word;
 }
 
@@ -734,7 +735,10 @@ main > .container > .appointment-form {
   background: url('../img/cross.svg') center/20px 20px no-repeat;
   cursor: pointer;
   border: none;
-  outline: none;
+}
+
+.modal-form-close-btn:focus {
+	border: 3px solid #663d15;
 }
 
 .modal-authorization-form .container {
@@ -866,6 +870,10 @@ main > .container > .appointment-form {
 
 .custom-checkbox:hover + label:hover::before {
   border-color: #663d15;
+}
+
+.custom-checkbox:focus + label::before {
+	border: 3px solid #663d15;
 }
 
 .custom-checkbox:checked + label::before { 

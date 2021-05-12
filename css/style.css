@@ -120,7 +120,6 @@ body {
     word-break: break-all;
     overflow-wrap: break-word;
     border: none;
-    outline: none;
     cursor: pointer;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
