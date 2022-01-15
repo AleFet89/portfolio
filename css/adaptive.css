@@ -1,9 +1,5 @@
 @media (max-width: 991px) {
 
-	.intro_margin-padding {
-	    margin: 0 0 50px;
-	}
-
 	.page-footer_padding {
 	    padding: 20px 0;
 	}
@@ -55,10 +51,26 @@
 
 	.page-header__email,
 	.page-header__phone {
-	    margin-left: 36px;
+	    margin-left: 16px;
 	}
 
 	.page-header_margin-padding {
 	    margin: 0 0 50px;
+	}
+
+	.page-footer__email,
+	.page-footer__phone {
+		margin-left: 16px;
+	}
+}
+
+@media (max-width: 454px) {
+	.page-header__container,
+	.page-footer__container {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
 	}
 }

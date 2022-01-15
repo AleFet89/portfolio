@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Организация мероприятий и впечатлений StarEvents Group">
+	<meta name="keywords" content="Организация мероприятий, StarEvents Group, ведущий, артисты на праздник, музыканты, ди-джей">
+	<title>StarEvents Group</title>
+	<link rel="stylesheet" href="libs/choices/choices.min.css">	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>	
+	<div class="wrapper _lock-padding">
+		<header class="header">
+			<div class="header__container">
+				<h1 class="header__title visually-hidden">Организация мероприятий и впечатлений StarEvents Group</h1>
+				<nav class="header__top-menu">
+					<a class="header__logo-link">
+						<img class="header__logo-img" src="img/logo.svg" alt="Логотип StarEvents" width="157" height="40">
+					</a>
+					<div class="header__hamburger">
+						<span class="header__hamburger-icon"></span>
+					</div>
+					<div class="header__main-menu">
+						<div class="header__main-menu-container">
+							<div class="header__nav-hamburger">
+								<span class="header__nav-hamburger-icon"></span>
+							</div>
+							<ul class="header__nav-content">
+								<li class="header__nav-item">
+									<a href="#" class="header__nav-link">Мероприятия</a>
+								</li>
+								<li class="header__nav-item">
+									<a href="#" class="header__nav-link">Как мы работаем</a>
+								</li>
+								<li class="header__nav-item">
+									<a href="#" class="header__nav-link">Ссылка</a>
+								</li>
+								<li class="header__nav-item">
+									<a href="#" class="header__nav-link">Контакты</a>
+								</li>
+							</ul>
+						</div>						
+						<ul class="header__nav-options">
+							<li class="header__option-item">
+								<a href="#registrationForm" class="header__option-link _popup-link">Регистрация</a>
+							</li>
+							<li class="header__option-item">
+								<a href="#loginForm" class="header__option-btn _popup-link">Войти</a>
+							</li>
+						</ul>
+					</div>				
+				</nav>
+				<section class="promo header__promo">
+					<div class="promo__container">
+						<h2 class="visually-hidden">Выбор мероприятия в Вашем городе</h2>
+						<h3 class="promo__title">Организуем яркие <br>мероприятия и впечатления</h3>
+						<p class="promo__description">Узнайте, что именно можно провести в Вашем городе!</p>
+						<form class="send-form promo__send-form" method="post" action="/">
+							<div class="select send-form__selects">
+								<select class="select__list select__list_multi-default" name="country" aria-label="Выбор страны">
+									<option class="select__option select__option_placeholder" value="">Ваша страна</option>
+									<option class="select__option" value="Россия">Россия</option>
+									<option class="select__option" value="Украина">Украина</option>
+								</select>	
+								<select class="select__list select__list_multi-default" name="city" aria-label="Выбор города">
+									<option class="select__option" value="">Ваш город</option>
+									<option class="select__option" value="Москва">Москва</option>
+									<option class="select__option" value="Киев">Киев</option>
+								</select>	
+								<select class="select__list select__list_multi-default" name="cathegory[]" aria-label="Выбор категории" multiple="multiple">
+									<option class="select__option" value="">Категория</option>
+									<option class="select__option" value="Ведущий">Ведущий</option>
+									<option class="select__option" value="Звезды">Звезды</option>
+									<option class="select__option" value="Артисты на праздник">Артисты на праздник</option>
+									<option class="select__option" value="Кавер-група">Кавер-група</option>
+									<option class="select__option" value="Ди-джей">Ди-джей</option>
+									<option class="select__option" value="Музыканты">Музыканты</option>
+									<option class="select__option" value="Фото">Фото</option>
+									<option class="select__option" value="Видео">Видео</option>
+									<option class="select__option" value="Техническое обеспечение">Техническое обеспечение</option>
+									<option class="select__option" value="Декорирование/Флористика">Декорирование/Флористика</option>
+									<option class="select__option" value="Кондитеры">Кондитеры</option>
+									<option class="select__option" value="Салют">Салют</option>
+									<option class="select__option" value="Аттракционы">Аттракционы</option>
+									<option class="select__option" value="Локации">Локации</option>
+									<option class="select__option" value="Аренда">Аренда</option>
+									<option class="select__option" value="Аренда транспорта">Аренда транспорта</option>
+								</select>
+							</div>			
+							<input class="send-form__button btn" type="submit" value="Найти">
+						</form>
+					</div>					
+				</section>
+			</div>
+		</header>
+		<main class="main">
+			<section class="services">
+				<div class="services__container">
+					<h2 class="visually-hidden">Наши услуги</h2>
+					<ul class="services__list">
+						<li class="services__item services__item_img01">
+							<a data-fslightbox="services-gallery" href="img/service01.jpg" class="services__full-img-link">
+								<p class="services__description">Ведущий</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img02">
+							<a data-fslightbox="services-gallery" href="img/service02.jpg" class="services__full-img-link">
+								<p class="services__description">Звезды</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img03">
+							<a data-fslightbox="services-gallery" href="img/service03.jpg" class="services__full-img-link">
+								<p class="services__description">Артисты на праздник</p>
+							</a>
+						</li>
+						<li class="services__item services__item_img04">
+							<a data-fslightbox="services-gallery" href="img/service04.jpg" class="services__full-img-link">
+								<p class="services__description">Кавер-Група</p>
+							</a>
+						</li>
+						<li class="services__item services__item_img05">
+							<a data-fslightbox="services-gallery" href="img/service05.jpg" class="services__full-img-link">
+								<p class="services__description">Ди-джей</p>
+							</a>
+						</li>
+						<li class="services__item services__item_img06">
+							<a data-fslightbox="services-gallery" href="img/service06.jpg" class="services__full-img-link">
+								<p class="services__description">Музыканты</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img07">
+							<a data-fslightbox="services-gallery" href="img/service07.jpg" class="services__full-img-link">
+								<p class="services__description">Фото</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img08">
+							<a data-fslightbox="services-gallery" href="img/service08.jpg" class="services__full-img-link">
+								<p class="services__description">Видео</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img09">
+							<a data-fslightbox="services-gallery" href="img/service09.jpg" class="services__full-img-link">
+								<p class="services__description">Техническое обеспечение</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img10">
+							<a data-fslightbox="services-gallery" href="img/service10.jpg" class="services__full-img-link">
+								<p class="services__description">Декорирование/Флористика</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img11">
+							<a data-fslightbox="services-gallery" href="img/service11.jpg" class="services__full-img-link">
+								<p class="services__description">Кондитеры</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img12">
+							<a data-fslightbox="services-gallery" href="img/service12.jpg" class="services__full-img-link">
+								<p class="services__description">Салют</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img13">
+							<a data-fslightbox="services-gallery" href="img/service13.jpg" class="services__full-img-link">
+								<p class="services__description">Аттракционы</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img14">
+							<a data-fslightbox="services-gallery" href="img/service14.jpg" class="services__full-img-link">
+								<p class="services__description">Локации</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img15">
+							<a data-fslightbox="services-gallery" href="img/service15.jpg" class="services__full-img-link">
+								<p class="services__description">Аренда</p>
+							</a>							
+						</li>
+						<li class="services__item services__item_img16">
+							<a data-fslightbox="services-gallery" href="img/service16.jpg" class="services__full-img-link">
+								<p class="services__description">Аренда транспорта</p>
+							</a>							
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="offers">
+				<div class="offers__container">
+					<h2 class="offers__title">Спецпредложения</h2>
+					<a href="#" class="offers__link">Получить больше</a>
+					<ul class="offers__list">
+						<li class="offers__item">
+							<a data-fslightbox="offers-gallery" href="img/offer01.jpg" class="offers__full-img-link">
+								<div class="offers__img-field offers__img-field_img01">
+									<p class="offers__description">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								</div>
+								<div class="offers__text-field">
+									<p class="offers__price"> от <span class="offers__number">1200</span></p>
+									<p class="offers__date">С 2.02 по 30.04</p>
+								</div>
+							</a>							
+						</li>
+						<li class="offers__item">
+							<a data-fslightbox="offers-gallery" href="img/offer02.jpg" class="offers__full-img-link">
+								<div class="offers__img-field offers__img-field_img02">
+									<p class="offers__description">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								</div>
+								<div class="offers__text-field">
+									<p class="offers__price"> от <span class="offers__number">1200</span></p>
+									<p class="offers__date">С 2.02 по 30.04</p>
+								</div>
+							</a>							
+						</li>
+						<li class="offers__item">
+							<a data-fslightbox="offers-gallery" href="img/offer03.jpg" class="offers__full-img-link">
+								<div class="offers__img-field offers__img-field_img03">
+									<p class="offers__description">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								</div>
+								<div class="offers__text-field">
+									<p class="offers__price"> от <span class="offers__number">1200</span></p>
+									<p class="offers__date">С 2.02 по 30.04</p>
+								</div>
+							</a>							
+						</li>
+						<li class="offers__item">
+							<a data-fslightbox="offers-gallery" href="img/offer04.jpg" class="offers__full-img-link">
+								<div class="offers__img-field offers__img-field_img04">
+									<p class="offers__description">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								</div>
+								<div class="offers__text-field">
+									<p class="offers__price"> от <span class="offers__number">1200</span></p>
+									<p class="offers__date">С 2.02 по 30.04</p>
+								</div>
+							</a>							
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="steps">
+				<div class="steps__container">
+					<h2 class="steps__title">Как <span class="steps__title-bold">мы работаем</span></h2>
+					<ul class="steps__list">
+						<li class="steps__item">
+							<p class="steps__description">Выберите артистов из списка и добавьте в запрос</p>
+							<div class="steps__number-circle"><span class="steps__number">1</span></div>
+							<div class="steps__img steps__img_01"></div>
+						</li>
+						<li class="steps__item">
+							<p class="steps__description">Бронируйте через наш сервис, без комиссии, взамен гарантируем качество и сервис</p>	
+							<div class="steps__number-circle"><span class="steps__number">2</span></div>
+							<div class="steps__img steps__img_02"></div>	
+						</li>
+						<li class="steps__item">
+							<p class="steps__description">Расскажите Ваши пожелания, где, когда и что за праздник</p>
+							<div class="steps__number-circle"><span class="steps__number">3</span></div>
+							<div class="steps__img steps__img_03"></div>
+						</li>
+						<li class="steps__item">	
+							<p class="steps__description">Выберите координатора, организатора под ключ или проявите организаторские способности сами</p>
+							<div class="steps__number-circle"><span class="steps__number">4</span></div>
+							<div class="steps__img steps__img_04"></div>
+						</li>
+						<li class="steps__item">
+							<p class="steps__description">Обрабатываем запрос и предоставляем предложение</p>
+							<div class="steps__number-circle"><span class="steps__number">5</span></div>
+							<div class="steps__img steps__img_05"></div>
+						</li>
+						<li class="steps__item">
+							<p class="steps__description"> Наслаждайтесь праздником, а наш онлайн помощник подскажет все тонкости</p>
+							<div class="steps__number-circle"><span class="steps__number">6</span></div>
+							<div class="steps__img steps__img_06"></div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="questions">
+				<div class="questions__container">
+					<h2 class="questions__title">Часто <span class="questions__title-bold">задаваемые вопросы</span></h2>
+					<ul class="questions__list">
+						<li class="questions__item">
+							<p class="questions__text">Сколько требуется времени на организацию праздника?</p>
+						</li>
+						<li class="questions__item">
+							<p class="questions__text">У меня горят сроки, вы сможете все подготовить вовремя?</p>
+						</li>
+						<li class="questions__item">
+							<p class="questions__text">Если артист по каким-либо причинам не сможет выступить, пришлете ли замену?</p>
+						</li>
+						<li class="questions__item">
+							<p class="questions__text">Есть ли возможность изменить уже назначенную дату?</p>
+						</li>
+					</ul>
+					<a href="#orderConsultation" class="questions__btn btn _popup-link">Отправить заявку</a>
+				</div>
+			</section>
+			<section class="popular">
+				<div class="popular__container">
+					<h2 class="popular__title"><span class="popular__title-bold">Популярные</span> артисты и шоу</h2>
+					<ul class="popular__list">
+						<li class="popular__item popular__item-img01">
+							<a data-fslightbox="popular-gallery" href="img/popular01.jpg" class="popular__link">
+								<p class="popular__text">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								<p class="popular__price"> от <span class="popular__number">1200</span></p>
+							</a>
+						</li>
+						<li class="popular__item popular__item-img02">
+							<a data-fslightbox="popular-gallery" href="img/popular02.jpg" class="popular__link">
+								<p class="popular__text">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								<p class="popular__price"> от <span class="popular__number">1200</span></p>
+							</a>
+						</li>
+						<li class="popular__item popular__item-img03">
+							<a data-fslightbox="popular-gallery" href="img/popular03.jpg" class="popular__link">
+								<p class="popular__text">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								<p class="popular__price"> от <span class="popular__number">1200</span></p>
+							</a>
+						</li>
+						<li class="popular__item popular__item-img04">
+							<a data-fslightbox="popular-gallery" href="img/popular04.jpg" class="popular__link">
+								<p class="popular__text">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								<p class="popular__price"> от <span class="popular__number">1200</span></p>
+							</a>
+						</li>
+						<li class="popular__item popular__item-img05">
+							<a data-fslightbox="popular-gallery" href="img/popular05.jpg" class="popular__link">
+								<p class="popular__text">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								<p class="popular__price"> от <span class="popular__number">1200</span></p>
+							</a>
+						</li>
+						<li class="popular__item popular__item-img06">
+							<a data-fslightbox="popular-gallery" href="img/popular06.jpg" class="popular__link">
+								<p class="popular__text">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								<p class="popular__price"> от <span class="popular__number">1200</span></p>
+							</a>
+						</li>
+						<li class="popular__item popular__item-img07">
+							<a data-fslightbox="popular-gallery" href="img/popular07.jpg" class="popular__link">
+								<p class="popular__text">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								<p class="popular__price"> от <span class="popular__number">1200</span></p>
+							</a>
+						</li>
+						<li class="popular__item popular__item-img08">
+							<a data-fslightbox="popular-gallery" href="img/popular08.jpg" class="popular__link">
+								<p class="popular__text">Ансамбль "Цыганские звёзды" Романа Коржова</p>
+								<p class="popular__price"> от <span class="popular__number">1200</span></p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="registration-01">
+				<div class="registration-01__container">
+					<h2 class="visually-hidden">Записаться в базу</h2>
+					<p class="registration-01__title">Как попасть в нашу базу</p>
+					<p class="registration-01__description">Для важных и неотложных переговоров — звоните</p>
+					<a href="#orderConsultation" class="registration-01__btn btn _popup-link">Отправить заявку</a>
+				</div>
+			</section>
+			<section class="feedbacks">
+				<div class="feedbacks__container">					
+					<h2 class="feedbacks__title">Что <span class="feedbacks__title-bold">о нас говорят</span></h2>
+					<p class="feedbacks__subtitle">Отзывы наших довольных клиентов.</p>
+					<div class="feedbacks__slider-container">
+						<ul class="feedbacks__slider-track">
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Андрей</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память. </p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Андрей</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Андрей</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Игорь</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Игорь</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Игорь</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Антон</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Антон</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Антон</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+							<li class="feedbacks__slider-item">
+								<p class="feedbacks__name">Дмитрий</p>
+								<p class="feedbacks__occupation">Директор</p>
+								<p class="feedbacks__description">Отлично организовали корпоратив в кратчайшие сроки. Сотрудникам некогда было скучать, настолько все хорошо было продумано. Техническое сопровождение - отменное. Весь коллектив получил фото и видео на память.</p>
+							</li>
+						</ul>
+					</div>
+					<div class="feedbacks__slider-buttons">
+						<button type="button" class="feedbacks__arrow-prev"></button>
+						<button type="button" class="feedbacks__arrow-next"></button>
+					</div>					
+				</div>
+			</section>
+			<section class="logotypes">
+				<h2 class="visually-hidden">Наши заказчики</h2>
+				<div class="logotypes__container">
+					<ul class="logotypes__list">
+						<li class="logotypes__item">
+							<img class="logotypes__img" src="img/logotypes01.png" width="109" height="66" alt="Логотип 01">						
+						</li>	
+						<li class="logotypes__item">
+							<img class="logotypes__img" src="img/logotypes02.png" width="95" height="81" alt="Логотип 02">
+						</li>
+						<li class="logotypes__item">
+							<img class="logotypes__img" src="img/logotypes03.png" width="69" height="81" alt="Логотип 03">
+						</li>
+						<li class="logotypes__item">
+							<img class="logotypes__img" src="img/logotypes04.png" width="116" height="57" alt="Логотип 04">
+						</li>	
+						<li class="logotypes__item">
+							<img class="logotypes__img" src="img/logotypes05.png" width="67" height="65" alt="Логотип 05">
+						</li>	
+						<li class="logotypes__item">
+							<img class="logotypes__img" src="img/logotypes03.png" width="69" height="81" alt="Логотип 06">
+						</li>	
+						<li class="logotypes__item">
+							<img class="logotypes__img" src="img/logotypes06.png" width="70" height="71" alt="Логотип 07">
+						</li>	
+						<li class="logotypes__item">
+							<img class="logotypes__img" src="img/logotypes01.png" width="109" height="66" alt="Логотип 08">						
+						</li>				
+					</ul>			
+				</div>
+			</section>
+			<section class="registration-02">
+				<div class="registration-02__container">
+					<h2 class="visually-hidden">Записаться в нашу базу</h2>
+					<p class="registration-02__title">Присоединяйся к нашей большой команде <span class="registration-02__title-bold">нас уже 123,000 артистов</span></p>
+					<a href="#orderConsultation" class="registration-02__btn btn _popup-link">Отправить заявку</a>
+				</div>
+			</section>
+		</main>	
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__arrow"></div>
+				<div class="footer__column">
+					<ul class="footer__registration-list">
+						<li class="footer__registration-item">
+							<p class="footer__registration-heading">Star Booking</p>
+						</li>
+						<li class="footer__registration-item">
+							<a href="#registrationForm" class="footer__registration-link _popup-link">Регистрация</a>
+						</li>
+						<li class="footer__registration-item">
+							<a href="#loginForm" class="footer__registration-btn _popup-link">Войти</a>
+						</li>
+					</ul>
+					<ul class="footer__info-list">
+						<li class="footer__info-item">
+							<p class="footer__info-subheading">Навигация</p>
+							<div class="footer__info-links">
+								<ul class="footer__links-list">
+									<li class="footer__links-item"><a href="#" class="footer__link">About</a></li>
+									<li class="footer__links-item"><a href="#" class="footer__link">Team</a></li>
+									<li class="footer__links-item"><a href="#" class="footer__link">Work</a></li>
+								</ul>
+								<ul class="footer__links-list">
+									<li class="footer__links-item"><a href="#" class="footer__link">About</a></li>
+									<li class="footer__links-item"><a href="#" class="footer__link">Team</a></li>
+									<li class="footer__links-item"><a href="#" class="footer__link">Work</a></li>
+								</ul>
+							</div>						
+						</li>
+						<li class="footer__info-item">
+							<p class="footer__info-subheading">Теги</p>
+							<div class="footer__info-links">
+								<ul class="footer__links-list">
+									<li class="footer__links-item"><a href="#" class="footer__link">#tagtag</a></li>
+									<li class="footer__links-item"><a href="#" class="footer__link">#team</a></li>
+									<li class="footer__links-item"><a href="#" class="footer__link">#work</a></li>
+								</ul>
+								<ul class="footer__links-list">
+									<li class="footer__links-item"><a href="#" class="footer__link">#trip</a></li>
+									<li class="footer__links-item"><a href="#" class="footer__link">#team</a></li>
+									<li class="footer__links-item"><a href="#" class="footer__link">#work</a></li>
+								</ul>
+							</div>						
+						</li>
+						<li class="footer__info-item">
+							<p class="footer__info-subheading">Для клиентов</p>
+							<a href="tel:+0999442999" class="footer__info-tel">+099 94 42 999</a><a href="mailto:example@mail.com" class="footer__info-email">example@mail.com</a>
+						</li>
+						<li class="footer__info-item">
+							<p class="footer__info-subheading">Для сотрудничества</p>
+							<a href="tel:+0972089728" class="footer__info-tel">+097 20 89 728</a><a href="mailto:work@gmail.com" class="footer__info-email">work@gmail.com</a>
+						</li>
+					</ul>
+					<ul class="footer__bottom-list">
+						<li class="footer__bottom-item">
+							<p class="footer__bottom-copyright">COPYRIGHT WOOCOMMERCE 2021 - <a href="#" class="footer__bottom-link">TERMS & CONDITIONS  PRIVACY POLICY</a></p>
+						</li>
+						<li class="footer__bottom-item">
+							<ul class="footer__social-list">
+								<li class="footer__social-item"><a class="footer__social-btn footer__social-btn_fb" href="#" rel="nofollow noopener noreferrer" target="_blank"><span class="sr-only">Facebook</span></a></li>
+								<li class="footer__social-item"><a class="footer__social-btn footer__social-btn_telegram" href="#" rel="nofollow noopener noreferrer" target="_blank"><span class="sr-only">Telegram</span></a></li>
+								<li class="footer__social-item"><a class="footer__social-btn footer__social-btn_phone" href="#" rel="nofollow noopener noreferrer" target="_blank"><span class="sr-only">Phone</span></a></li>
+								<li class="footer__social-item"><a class="footer__social-btn footer__social-btn_whatsapp" href="#" rel="nofollow noopener noreferrer" target="_blank"><span class="sr-only">Whatsapp</span></a></li>
+								<li class="footer__social-item"><a class="footer__social-btn footer__social-btn_instagram" href="#" rel="nofollow noopener noreferrer" target="_blank"><span class="sr-only">Instagram</span></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>				
+			</div>
+		</footer>				
+	</div>
+	
+	<div id="orderConsultation" class="popup">
+		<div class="popup__body">
+			<section class="popup__content">
+				<h2 class="popup__title">Заказать консультацию<a href="#" class="popup__close _close-popup"></a></h2>							
+				<form class="popup__form consultation-form" method="post" action="/">
+					<div class="consultation-form__field">
+						<input class="consultation-form__input" type="text" name="name" placeholder="Имя Фамилия" required>
+					</div>
+					<div class="consultation-form__field">
+						<input class="consultation-form__input" type="tel" name="tel" placeholder="Телефон" autocomplete="on" required>
+					</div>	
+					<input class="consultation-form__button btn" type="submit" value="Заказать сейчас">
+				 </form>			  
+			</section>
+		</div>
+	</div>
+	
+	<div id="loginForm" class="popup">
+		<div class="popup__body">
+			<section class="popup__content">
+				<h2 class="popup__title">Вход<a href="#" class="popup__close _close-popup"></a></h2>
+				<form class="popup__form login-form" method="post" action="/">
+					<div class="login-form__field">
+						<input class="login-form__input" type="text" name="login" placeholder="Имя пользователя" autocomplete="on" required>
+					</div>
+					<div class="login-form__field">
+						<input class="login-form__input" type="password" name="password" placeholder="Пароль" required>
+					</div>	
+					<input class="login-form__button btn" type="submit" value="Вход">
+				 </form>		
+				 <div class="popup__links">
+					 <a href="#registrationForm" class="popup__link _popup-link">У вас нет аккаунта?</a><a href="#resetPasswordLoginForm" class="popup__link _popup-link">Сбросить пароль</a>
+				 </div>
+				 <p class="popup__text">Присоединяйтесь к нам</p>
+				 <ul class="popup__social-list">
+					<li class="popup__social-item"><a class="popup__social-btn popup__social-btn_fb" href="#" rel="nofollow noopener noreferrer" target="_blank">Facebook</a></li>
+					<li class="popup__social-item"><a class="popup__social-btn popup__social-btn_google" href="#" rel="nofollow noopener noreferrer" target="_blank">Google</a></li>
+					<li class="popup__social-item"><a class="popup__social-btn popup__social-btn_twitter" href="#" rel="nofollow noopener noreferrer" target="_blank">Twitter</a></li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<div id="resetPasswordLoginForm" class="popup">
+		<div class="popup__body">
+			<section class="popup__content">
+				<h2 class="popup__title">Вход<a href="#" class="popup__close _close-popup"></a></h2>
+				<form class="popup__form login-form" method="post" action="/">
+					<div class="login-form__field">
+						<input class="login-form__input" type="text" name="login" placeholder="Имя пользователя или Email" autocomplete="on" required>
+					</div>	
+					<input class="login-form__button btn" type="submit" value="Получить новый пароль">
+				 </form>	
+				 <div class="popup__links">
+					<a href="#registrationForm" class="popup__link _popup-link">У вас нет аккаунта?</a><a href="#loginForm" class="popup__link _popup-link">Я зарегистрировался</a>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div id="registrationForm" class="popup">
+		<div class="popup__body">
+			<section class="popup__content">
+				<div class="popup__title-field">
+					<h2 class="popup__title">Регистрация</h2>
+					<a href="#tab-1" class="popup__tab-switch popup__tab-switch_active fade">Заказчик</a>
+					<a href="#tab-2" class="popup__tab-switch fade">Исполнитель</a>
+					<a href="#" class="popup__close _close-popup"></a>
+				</div>
+				<form id="tab-1" class="popup__form login-form login-form_for-client login-form_active" method="post" action="/">
+					<div class="login-form__field">
+						<input class="login-form__input" type="text" name="name" placeholder="Имя" autocomplete="on" required>
+						<input class="login-form__input" type="text" name="surname" placeholder="Фамилия" autocomplete="on" required>
+					</div>
+					<div class="login-form__field">
+						<input class="login-form__input" type="text" name="loginName" placeholder="Имя пользователя" autocomplete="on" required>
+						<input class="login-form__input" type="email" name="clientEmail" placeholder="Email" autocomplete="on" required>
+					</div>
+					<div class="login-form__field login-form__field_password">
+						<input class="login-form__input" type="password" name="clientPassword1" placeholder="Пароль" required>
+						<input class="login-form__input" type="password" name="clientPassword2" placeholder="Повтор пароля" required>
+					</div>	
+					<input class="login-form__button btn" id="loginFormButtonClient" type="submit" value="Вход">
+				 </form>	
+				 <form id="tab-2" class="popup__form login-form login-form_for-performer" method="post" action="/">
+					<div class="login-form__field">
+						<input class="login-form__input" type="text" name="companyName" placeholder="Название компании" autocomplete="on" required>
+					</div>
+					<div class="login-form__field">
+						<input class="login-form__input" type="text" name="name" placeholder="Имя" autocomplete="on" required>
+						<input class="login-form__input" type="text" name="surname" placeholder="Фамилия" autocomplete="on" required>
+					</div>
+					<div class="login-form__field">
+						<input class="login-form__input" type="text" name="loginName" placeholder="Имя пользователя" autocomplete="on" required>
+						<input class="login-form__input" type="email" name="performerEmail" placeholder="Email" autocomplete="on" required>
+					</div>
+					<div class="login-form__field login-form__field_password">
+						<input class="login-form__input" type="password" name="performerPassword1" placeholder="Пароль" required>
+						<input class="login-form__input" type="password" name="performerPassword2" placeholder="Повтор пароля" required>
+					</div>
+					<div class="login-form__field">
+						<input class="login-form__input" type="tel" name="phone" placeholder="Телефон" autocomplete="on" required>
+					</div>
+					<div class="login-form__field">
+						<input class="login-form__input" type="text" name="address" placeholder="Адрес" autocomplete="on" required>
+					</div>	
+					<div class="login-form__field">
+						<select class="login-form__input select__list_multi-default" name="country" aria-label="Выбор страны">
+							<option class="select__option select__option_placeholder" value="">Страна</option>
+							<option class="select__option" value="Россия">Россия</option>
+							<option class="select__option" value="Украина">Украина</option>
+						</select>	
+						<input class="login-form__input" type="text" name="city" placeholder="Город" autocomplete="on" required>
+					</div>
+					<div class="login-form__field">
+						<input class="login-form__input" type="number" name="postalCode" placeholder="Почтовый код" autocomplete="on" required>
+						<select class="login-form__input select__list_multi-default" name="cathegory[]" aria-label="Выбор категории" multiple="multiple">
+							<option class="select__option" value="">Категория</option>
+							<option class="select__option" value="Ведущий">Ведущий</option>
+							<option class="select__option" value="Звезды">Звезды</option>
+							<option class="select__option" value="Артисты на праздник">Артисты на праздник</option>
+							<option class="select__option" value="Кавер-група">Кавер-група</option>
+							<option class="select__option" value="Ди-джей">Ди-джей</option>
+							<option class="select__option" value="Музыканты">Музыканты</option>
+							<option class="select__option" value="Фото">Фото</option>
+							<option class="select__option" value="Видео">Видео</option>
+							<option class="select__option" value="Техническое обеспечение">Техническое обеспечение</option>
+							<option class="select__option" value="Декорирование/Флористика">Декорирование/Флористика</option>
+							<option class="select__option" value="Кондитеры">Кондитеры</option>
+							<option class="select__option" value="Салют">Салют</option>
+							<option class="select__option" value="Аттракционы">Аттракционы</option>
+							<option class="select__option" value="Локации">Локации</option>
+							<option class="select__option" value="Аренда">Аренда</option>
+							<option class="select__option" value="Аренда транспорта">Аренда транспорта</option>
+						</select>
+					</div>
+					<div class="login-form__field">
+						<select class="login-form__input select__list_multi-default" name="package" aria-label="Выбор пакета">
+							<option class="select__option select__option_placeholder" value="">Выбор пакета</option>
+							<option class="select__option" value="Россия">Старт</option>
+							<option class="select__option" value="Украина">Миди</option>
+							<option class="select__option" value="Украина">Продвинутый</option>
+						</select>	
+					</div>
+					<input class="login-form__button btn" id="loginFormButtonPerformer" type="submit" value="Вход">
+				 </form>	
+				 <div class="popup__links">
+					 <a href="#loginForm" class="popup__link _popup-link">Уже есть аккаунт?</a>
+				 </div>
+				 <p class="popup__text">Присоединяйтесь к нам</p>
+				 <ul class="popup__social-list">
+					<li class="popup__social-item"><a class="popup__social-btn popup__social-btn_fb" href="#" rel="nofollow noopener noreferrer" target="_blank">Facebook</a></li>
+					<li class="popup__social-item"><a class="popup__social-btn popup__social-btn_google" href="#" rel="nofollow noopener noreferrer" target="_blank">Google</a></li>
+					<li class="popup__social-item"><a class="popup__social-btn popup__social-btn_twitter" href="#" rel="nofollow noopener noreferrer" target="_blank">Twitter</a></li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	
+
+	<script src="libs/jquery/jquery-3.5.1.min.js"></script>
+	<script src="libs/choices/choices.min.js"></script>
+	<script src="libs/fslightbox/fslightbox.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

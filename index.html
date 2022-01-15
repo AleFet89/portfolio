@@ -11,44 +11,46 @@
 
 	<body>
 		<div class="wrapper">
-			<header class="page-header page-header_margin-padding">
-				<div class="container">
-					<a class="page-header__email" href="mailto:alefet89@mail.ru">alefet89@mail.ru</a>
-					<a class="page-header__phone" href="tel:+79856356364">+7 985 635 63 64</a>
-				</div>
-			</header>
+			<div class="fullheight-container">
+				<header class="page-header page-header_margin-padding">
+					<div class="page-header__container">
+						<a class="page-header__email" href="mailto:alefet89@mail.ru">alefet89@mail.ru</a>
+						<a class="page-header__phone" href="tel:+79856356364">+7 985 635 63 64</a>
+					</div>
+				</header>
+	
+				<section class="promo promo_margin">
+					<div class="promo__container">
+						<h1 class="promo__title">Фетисова Алена</h1>
+						<p class="promo__text">
+							HTML-верстальщик
+						</p>
+					</div>
+				</section>
+			</div>
+			
 
-			<section class="promo promo_margin">
-				<div class="container">
-					<h1 class="promo__title">Фетисова Алена</h1>
-					<p class="promo__text">
-						HTML-верстальщик
-					</p>
-				</div>
-			</section>
-
-			<section class="intro intro_margin-padding">
-				<div class="container">
+			<section class="intro intro_padding">
+				<div class="intro__container">
 					<h2 class="intro__title visually-hidden">Давайте познакомимся</h2>
 					<div class="intro__item">
 						<h3 class="intro__item-title h3-title">О себе</h3>
 						<p class="intro__item-text">
-							Опыт работы 1 год. <br>
-							Во фронтенде с марта 2020. <br>
-							Нахожусь в постоянном процессе обучения с перспективой развития во фронтенд разработчика.
+							Опыт работы <b>2 года</b>. <br>
+							Во фронтенде <b>с марта 2020</b>, фриланс. <br>
 						</p>            
 					</div>
 					<div class="intro__item">
 						<h3 class="intro__item-title h3-title">Мои навыки</h3>
 						<p class="intro__item-text">
-							<b>HTML5 + CSS3</b><br> Умею делать <strong>адаптивную кроссбраузерную оптимизированную семантическую валидную вёрстку по методологии БЭМ.</strong>
+							<b>HTML5 + CSS3</b><br> Умею делать <strong>адаптивную, кроссбраузерную, оптимизированную, семантическую, валидную вёрстку по методологии БЭМ.</strong>
 						</p>
 						<p class="intro__item-text">В работе использую:</p>
 						<ul class="intro__item-list">
 							<li class="intro__item-li">Редактор кода: VS Code</li>
-							<li class="intro__item-li">Препроцессор SCSS / Sass</li>
+							<li class="intro__item-li">Препроцессор SCSS</li>
 							<li class="intro__item-li">Сборщик Gulp</li>
-							<li class="intro__item-li">Графические редакторы: Zeplin, Photoshop, Figma</li>
+							<li class="intro__item-li">Графические редакторы: Figma, Zeplin, Photoshop</li>
 							<li class="intro__item-li">Git, GitHub</li>
 						</ul>  
 						<p class="intro__item-text">
@@ -61,7 +63,7 @@
 							Владею классическим JS ES5 + Modern JS ES6 + jQuery.
 						</p>
 						<p class="intro__item-text">
-							Знакома с ООП и парадигмой MVC на примере PHP-фреймворка CodeIgniter.
+							Знакома с ООП и паттерном MVC на примере PHP-фреймворка CodeIgniter.
 						</p>
 						<p class="intro__item-text">
 							Английский язык на уровне разговорного. Легко читаю документацию W3C.
@@ -72,10 +74,10 @@
 						<dl class="intro__skills-list">
 							<dt class="intro__skill intro__skill_html">HTML - 99%</dt>
 							<dd class="intro__skill-level"><div class="intro__skill-width-html">99%</div></dd>
-							<dt class="intro__skill intro__skill_css">CSS - 95%</dt>
-							<dd class="intro__skill-level"><div class="intro__skill-width-css">95%</div></dd>
-							<dt class="intro__skill intro__skill_js">JavaScript - 50%</dt>
-							<dd class="intro__skill-level"><div class="intro__skill-width-js">50%</div></dd>
+							<dt class="intro__skill intro__skill_css">CSS - 99%</dt>
+							<dd class="intro__skill-level"><div class="intro__skill-width-css">99%</div></dd>
+							<dt class="intro__skill intro__skill_js">JavaScript - 60%</dt>
+							<dd class="intro__skill-level"><div class="intro__skill-width-js">60%</div></dd>
 							<dt class="intro__skill intro__skill_php">PHP - 35%</dt>
 							<dd class="intro__skill-level"><div class="intro__skill-width-php">35%</div></dd>
 						</dl>
@@ -84,17 +86,45 @@
 			</section>
 
 			<section class="portfolio">
-				<div class="container">
+				<div class="portfolio__container">
 					<h2 class="portfolio__title">Мои работы</h2>
 					<ul class="portfolio__list-items">
+						<li class="portfolio__item">
+							<figure class="portfolio__item-promo">
+								<img class="portfolio__item-img" src="files/starevents.jpg" width="1351" height="651" alt="StarEvents организация праздников и мероприятий">
+							</figure>
+							<h3 class="portfolio__item-title">Организация мероприятий и впечатлений StarEvents Group</h3>
+							<p class="portfolio__item-text">Отзывчиво-адаптивная, семантическая,  оптимизированная вёрстка на флексах по методологии БЭМ + кроссбраузерность.</p>
+							<p class="portfolio__item-text">HTML5 + CSS3 + JS (jQuery)</p>						
+							<p class="portfolio__item-text">Стили писались с помощью препроцессора SCSS. Все собиралось через Gulp.</p>
+							<p class="portfolio__item-text">Модальные, всплывающие окна реализованы через нативный JS.<br>
+							Фиксированный header при скролле реализован через нативный JS.<br>
+							Адаптивное меню гамбургер реализовано через нативный JS.<br>
+							Разворачивание/сворачивание footer при нажатии на стрелку реализовано через нативный JS.
+							</p>
+							<p class="portfolio__item-text">Кастомизированный select реализован с помощью библиотеки choices.js<br>
+							Карусель отзывов реализована с помощью библиотеки slick.<br>
+							Модальная галерея изображений, лайтбокс, реализована с помощью плагина fslightbox.js
+							</p>			
+							<p class="portfolio__item-text">Переключение табов в попап-окне регистрации реализовано с помощью jQuery.<br>
+							Проверка мейла и комбинаций символов при вводе пароля реализована с помощью jQuery.<br>
+							Проверка паролей и мейла перед отправкой формы реализована через нативный JS.
+							</p>	
+							<a class="portfolio__item-button button" href="source/starevents/index.html">Открыть страницу</a>
+						</li>
 						<li class="portfolio__item">
 							<figure class="portfolio__item-promo">
 								<img class="portfolio__item-img" src="files/nerds.jpg" width="1351" height="651" alt="Дизайн-студия Nerds">
 							</figure>
 							<h3 class="portfolio__item-title">Дизайн-студия Nerds</h3>
-							<p class="portfolio__item-text">Отзывчиво-адаптивная семантическая вёрстка на флексах по методологии БЭМ + кроссбраузерность.</p>
+							<p class="portfolio__item-text">Отзывчиво-адаптивная, семантическая вёрстка на флексах по методологии БЭМ + кроссбраузерность.</p>
 							<p class="portfolio__item-text">HTML5 + CSS3 + JS (jQuery)</p>
-							<p class="portfolio__item-text">Модальные всплывающие окна.</p>
+							<p class="portfolio__item-text">Стили писались с помощью препроцессора SCSS. Все собиралось через Gulp.</p>
+							<p class="portfolio__item-text">Модальные, всплывающие окна реализованы через нативный JS.<br>
+							Адаптивное меню гамбургер реализовано через нативный JS.<br>
+							Разворачивание/сворачивание footer при нажатии на стрелку реализовано через нативный JS.
+							</p>
+							<p class="portfolio__item-text">Слайдер в промо-блоке реализован с помощью библиотеки slick.</p>
 							<a class="portfolio__item-button button" href="source/nerds/index.html">Открыть страницу</a>
 						</li>
 						<li class="portfolio__item">
@@ -102,8 +132,13 @@
 								<img class="portfolio__item-img" src="files/form.jpg" width="1345" height="645" alt="Форма">
 							</figure>
 							<h3 class="portfolio__item-title">Форма</h3>
-							<p class="portfolio__item-text">Отзывчиво-адаптивная семантическая вёрстка на флексах по методологии БЭМ + кроссбраузерность.</p>
+							<p class="portfolio__item-text">Отзывчиво-адаптивная, семантическая вёрстка на флексах по методологии БЭМ + кроссбраузерность.</p>
 							<p class="portfolio__item-text">HTML5 + CSS3 + JS (jQuery)</p>
+							<p class="portfolio__item-text">Стили писались с помощью препроцессора SCSS. Все собиралось через Gulp.</p>
+							<p class="portfolio__item-text">Кастомизированный select реализован с помощью виджета Selectmenu библиотеки JQuery UI.</p>
+							<p class="portfolio__item-text">Подсветка input при событии hover реализована через нативный JS.<br>
+							Скрытие/открытие контента при нажатии на чекбокс реализовано через нативный JS.
+							</p>
 							<a class="portfolio__item-button button" href="source/form/index.html">Открыть страницу</a>
 						</li>
 						<li class="portfolio__item">
@@ -111,9 +146,16 @@
 								<img class="portfolio__item-img" src="files/device.jpg" width="1366" height="625" alt="Магазин гаджетов Device">
 							</figure>
 							<h3 class="portfolio__item-title">Магазин гаджетов Device</h3>
-							<p class="portfolio__item-text">Отзывчиво-адаптивная семантическая вёрстка на флексах по методологии БЭМ + кроссбраузерность.</p>
+							<p class="portfolio__item-text">Отзывчиво-адаптивная, семантическая вёрстка на флексах по методологии БЭМ + кроссбраузерность.</p>
 							<p class="portfolio__item-text">HTML5 + CSS3 + JS (jQuery)</p>
-							<p class="portfolio__item-text">Модальные всплывающие окна.</p>
+							<p class="portfolio__item-text">Модальные, всплывающие окна реализованы через нативный JS.<br>		
+							Появление кнопки "Найти" при фокусе на поле поиска реализовано через нативный JS.<br>
+							Слайдер в промо-блоке реализован через нативный JS.<br>
+							Переключение табов в доставке реализовано через нативный JS.					
+							</p>
+							<p class="portfolio__item-text">Адаптивное меню гамбургер реализовано с помощью jQuery.<br>
+							Разворачивание/сворачивание footer при нажатии на стрелку реализовано с помощью jQuery.	
+							</p>
 							<a class="portfolio__item-button button" href="source/device/index.html">Открыть страницу</a>
 						</li>
 						 <li class="portfolio__item">
@@ -121,9 +163,9 @@
 								<img class="portfolio__item-img" src="files/barbershop.jpg" width="1365" height="652" alt="Барбершоп «Бородинский»">
 							</figure>
 							<h3 class="portfolio__item-title">Барбершоп «Бородинский»</h3>
-							<p class="portfolio__item-text">Отзывчивая семантическая вёрстка на флексах + кроссбраузерность.</p>
+							<p class="portfolio__item-text">Отзывчивая, семантическая вёрстка на флексах + кроссбраузерность.</p>
 							<p class="portfolio__item-text">HTML5 + CSS3 + JS</p>
-							<p class="portfolio__item-text">Модальные всплывающие окна.</p>
+							<p class="portfolio__item-text">Модальные, всплывающие окна реализованы через нативный JS.</p>
 							<a class="portfolio__item-button button" href="source/barbershop/index.html">Открыть страницу</a>
 						</li>
 						 <li class="portfolio__item">
@@ -131,7 +173,7 @@
 								<img class="portfolio__item-img" src="files/kwast.jpg" width="1366" height="599" alt="Кваст - магазин крафтового кваса">
 							</figure>
 							<h3 class="portfolio__item-title">Кваст - магазин крафтового кваса</h3>
-							<p class="portfolio__item-text">Фиксированная семантическая вёрстка на флоатах + кроссбраузерность.</p>
+							<p class="portfolio__item-text">Фиксированная, семантическая вёрстка на флоатах + кроссбраузерность.</p>
 							<p class="portfolio__item-text">HTML5 + CSS3</p>
 							<a class="portfolio__item-button button" href="source/kwast/index.html">Открыть страницу</a>
 						</li>
@@ -140,7 +182,7 @@
 								<img class="portfolio__item-img" src="files/keksby.jpg" width="1366" height="641" alt="Keksby - магазин кошачьих аксессуаров">
 							</figure>
 							<h3 class="portfolio__item-title">Keksby - магазин кошачьих аксессуаров</h3>
-							<p class="portfolio__item-text">Фиксированная семантическая вёрстка на флоатах + кроссбраузерность.</p>
+							<p class="portfolio__item-text">Фиксированная, семантическая вёрстка на флоатах + кроссбраузерность.</p>
 							<p class="portfolio__item-text">HTML5 + CSS3</p>
 							<a class="portfolio__item-button button" href="source/keksby/index.html">Открыть страницу</a>
 						</li>
@@ -149,8 +191,8 @@
 								<img class="portfolio__item-img" src="files/kinomonstr.jpg" width="1349" height="646" alt="Киномонстр - сайт о кино и сериалах">
 							</figure>
 							<h3 class="portfolio__item-title">Киномонстр - сайт о кино и сериалах</h3>
-							<p class="portfolio__item-text">Адаптивная вёрстка на Bootstrap + кроссбраузерность.</p>
-							<p class="portfolio__item-text">HTML5 + CSS3</p>
+							<p class="portfolio__item-text">Адаптивная вёрстка на фреймворке Bootstrap + кроссбраузерность.</p>
+							<p class="portfolio__item-text">HTML5 + CSS3 + JS (jQuery)</p>
 							<a class="portfolio__item-button button" href="source/kinomonstr/index.html">Открыть страницу</a>
 						</li>
 					</ul>       
@@ -158,7 +200,7 @@
 			</section>
 
 			<footer class="page-footer page-footer_padding">
-				<div class="container">
+				<div class="page-footer__container">
 					<a class="page-footer__email" href="mailto:alefet89@mail.ru">alefet89@mail.ru</a>
 					<a class="page-footer__phone" href="tel:+79856356364">+7 985 635 63 64</a>
 				</div>

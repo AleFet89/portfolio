@@ -1555,8 +1555,8 @@ body.lock {
   }
 
   .header__logo-link {
-    -ms-flex-preferred-size: calc(120px + 40 * ((100vw - 320px) / 880));
-        flex-basis: calc(120px + 40 * ((100vw - 320px) / 880));
+    -ms-flex-preferred-size: calc(100px + 40 * ((100vw - 320px) / 880));
+        flex-basis: calc(100px + 40 * ((100vw - 320px) / 880));
   }
 
   .header__logo-img {
