@@ -1,0 +1,132 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-advantage01-icon {
+  background-image: url(sprite.png);
+  background-position: -70px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-advantage02-icon {
+  background-image: url(sprite.png);
+  background-position: -134px 0px;
+  width: 58px;
+  height: 58px;
+}
+.icon-advantage03-icon {
+  background-image: url(sprite.png);
+  background-position: -134px -58px;
+  width: 58px;
+  height: 58px;
+}
+.icon-advantage04-icon {
+  background-image: url(sprite.png);
+  background-position: -192px 0px;
+  width: 56px;
+  height: 60px;
+}
+.icon-advantage05-icon {
+  background-image: url(sprite.png);
+  background-position: -192px -60px;
+  width: 52px;
+  height: 62px;
+}
+.icon-advantage06-icon {
+  background-image: url(sprite.png);
+  background-position: 0px -134px;
+  width: 61px;
+  height: 50px;
+}
+.icon-advantage07-icon {
+  background-image: url(sprite.png);
+  background-position: -64px -70px;
+  width: 60px;
+  height: 62px;
+}
+.icon-advantage08-icon {
+  background-image: url(sprite.png);
+  background-position: 0px -70px;
+  width: 64px;
+  height: 64px;
+}
+.icon-arrowup-icon {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 70px;
+  height: 70px;
+}
+.icon-check-icon {
+  background-image: url(sprite.png);
+  background-position: -221px -134px;
+  width: 25px;
+  height: 32px;
+}
+.icon-facebook-icon {
+  background-image: url(sprite.png);
+  background-position: -61px -134px;
+  width: 32px;
+  height: 32px;
+}
+.icon-footercheckmark-icon {
+  background-image: url(sprite.png);
+  background-position: 0px -184px;
+  width: 32px;
+  height: 24px;
+}
+.icon-footerfacebook-icon {
+  background-image: url(sprite.png);
+  background-position: -93px -134px;
+  width: 32px;
+  height: 32px;
+}
+.icon-footerinstagram-icon {
+  background-image: url(sprite.png);
+  background-position: -125px -134px;
+  width: 32px;
+  height: 32px;
+}
+.icon-footermail-icon {
+  background-image: url(sprite.png);
+  background-position: -134px -116px;
+  width: 24px;
+  height: 18px;
+}
+.icon-footertel-icon {
+  background-image: url(sprite.png);
+  background-position: -32px -184px;
+  width: 24px;
+  height: 24px;
+}
+.icon-footerwhatsapp-icon {
+  background-image: url(sprite.png);
+  background-position: -157px -134px;
+  width: 32px;
+  height: 32px;
+}
+.icon-insta-icon {
+  background-image: url(sprite.png);
+  background-position: -56px -184px;
+  width: 24px;
+  height: 24px;
+}
+.icon-whatsapp-icon {
+  background-image: url(sprite.png);
+  background-position: -189px -134px;
+  width: 32px;
+  height: 32px;
+}
