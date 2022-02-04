@@ -13,7 +13,7 @@
 	// от кого письмо
 	$mail->setFrom('alefet89@mail.ru', 'AleFet');
 	//  Кому отправить
-	$mail->addAddress('alefet89@mail.ru'); //	тут можно указывать несколько мейлов
+	$mail->addAddress('alefet89@mail.ru'); 
 	//  Тема письма
 	$mail->Subject = 'Заказ';
 
@@ -33,7 +33,6 @@
 		$body.='<p><strong>Сообщение:</strong> '.$_POST['message'].'</p>';
 	}
 	
-	// собранную переменную $body присваиваем в плагин
 	$mail->Body = $body;
 
 	// Отправляем
