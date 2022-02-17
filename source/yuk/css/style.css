@@ -2985,10 +2985,6 @@ body {
     margin-right: unset;
   }
 
-  .contacts__img-column {
-    width: 400px;
-    height: 221px;
-  }
 
   .contacts__img:hover {
     -webkit-transform: scale(1.8);

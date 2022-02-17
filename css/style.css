@@ -178,6 +178,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+	 white-space: nowrap;
 }
 
 .page-header__email:hover,
@@ -453,6 +454,7 @@ body {
     background-repeat: no-repeat;
     background-position: left center;
     position: relative;
+	 white-space: nowrap;
 }
 
 .page-footer__email {
