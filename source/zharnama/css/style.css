@@ -1742,7 +1742,7 @@ body._lock {
 .contacts__container {
   padding-top: 80px;
   padding-right: 20px;
-  padding-bottom: 150px;
+  padding-bottom: 190px;
   padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3336,7 +3336,7 @@ body._lock {
   }
 
   .contacts__container {
-    padding-bottom: calc(70px + 80 * ((100vw - 320px) / 630));
+    padding-bottom: calc(70px + 160 * ((100vw - 320px) / 630));
   }
 
   .contacts__container::after {
