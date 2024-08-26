@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta name="robots" content="index, follow">
+        <title>Очистка и дезинфекция систем вентиляции для бизнеса</title>
+        <meta charset="utf-8">
+        <meta name="Description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="application-name" content="Devkalion">
+        <meta name="copyright" content="Devkalion">
+        <link rel="preload" href="css/style_v1.css" as="style">
+        <link rel="preload" href="css/media_v1.css" as="style">
+        <link rel="stylesheet" href="css/style_v1.css">
+        <link rel="stylesheet" href="css/media_v1.css">  
+        <meta property="og:title" content="Очистка и дезинфекция систем вентиляции для бизнеса">
+        <meta property="og:description" content="">
+        <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="img/logo-og.jpg">
+        <meta property="og:site_name" content="devkalion.local">  
+    </head>
+<body>  
+    <div class="body-container">
+        <header class="header-container">
+            <div class="wrapper">
+                <div class="header-block flex-row">
+                    <div class="header-column-logo flex-row">
+                        <a href="#">
+                            <img src="img/logo.svg" alt="Devkalion">
+                        </a>
+                    </div>
+                    <div class="header-column-menu flex-row">		
+                    <svg class="not-desktop city-popup"><use href="img/sprite.svg#place-icon"></use></svg>
+                        <div class="input-city-field">
+                            <svg class="not-desktop"><use href="img/sprite.svg#search-icon"></use></svg>
+                            <svg><use href="img/sprite.svg#arrow"></use></svg>
+                            <input type="text" class="city-search-input" name="search" placeholder="Краснодар" oninput="citySearch(this)">					
+                            <div class="city-dropdown">
+                                <div class="city-list flex-column">
+                                    <a class="city-item" href="#">Краснодар</a>
+                                    <a class="city-item" href="#">Москва</a>
+                                </div>
+                            </div>			
+                        </div>				
+                        <button type="button" class="burger-btn" id="burger-button"><span></span></button>
+                        <nav class="nav-header">
+                            <ul class="header-links-list flex-row">
+                                <li class="header-links-item not-desktop">
+                                    <p>Все услуги</p>
+                                    <ul>
+                                        <li><a href="#" itemprop="url">Чистка систем вентиляции от&nbsp;пыли</a></li>
+                                        <li><a href="#" itemprop="url">Чистка систем вентиляции от&nbsp;жира</a></li>
+                                        <li><a href="#" itemprop="url">Дезинфекция систем вентиляции и&nbsp;кондиционирования</a></li>
+                                        <li><a href="#" itemprop="url">Техническое обслуживание систем вентиляции и&nbsp;кондиционирования</a></li>						
+                                    </ul>
+                                </li>
+                                <li class="header-links-item not-desktop">
+                                    <p>Меню</p>
+                                </li>
+                                <li class="header-links-item not-desktop">
+                                    <a href="#">Главная</a>
+                                </li>
+                                <li class="header-links-item">
+                                    <a href="#">О&nbsp;нас</a>
+                                </li>
+                                <li class="header-links-item dropdown-nav">
+                                    <a href="#">Услуги</a>
+                                    <svg><use href="img/sprite.svg#arrow"></use></svg>
+                                    <div class="dropdown-menu">
+                                        <ul class="dropdown-content flex-column">
+                                            <li><a href="#" itemprop="url">Чистка систем вентиляции от&nbsp;пыли</a></li>
+                                            <li><a href="#" itemprop="url">Чистка систем вентиляции от&nbsp;жира</a></li>
+                                            <li><a href="#" itemprop="url">Дезинфекция систем вентиляции и&nbsp;кондиционирования</a></li>
+                                            <li><a href="#" itemprop="url">Техническое обслуживание систем вентиляции и&nbsp;кондиционирования</a></li>								
+                                        </ul>
+                                    </div>							
+                                </li>
+                                <li class="header-links-item">
+                                    <a href="#">Контакты</a>
+                                </li>
+                                <li class="header-links-item tel flex-row not-desktop">					
+                                    <a href="tel:+78005673411" rel="nofollow" class="flex-center"><svg><use href="img/sprite.svg#tel-icon"></use></svg><span>+7 (800) 567–34–11</span></a>
+                                </li>
+                                <li class="header-links-item callback not-desktop">
+                                    <button type="button" class="btn second-btn" onclick="popup('recall')"><span>Обратный звонок</span></button>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-tel flex-center">
+                            <svg><use href="img/sprite.svg#tel-icon"></use></svg>
+                            <a href="tel:+78005673411" rel="nofollow" class="flex-center"><span>+7 (800) 567–34–11</span><span class="not-desktop flex-center"><svg><use href="img/sprite.svg#tel-icon"></use></svg></span></a>
+                        </div>
+                        <div class="header-callback">
+                            <button type="button" class="btn second-btn" onclick="popup('recall')"><span>Обратный звонок</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main-container">
+			<section class="main-promo"> 
+                <div class="wrapper">
+                    <div class="main-promo-block flex-row">
+                        <div class="main-promo-content filter-image">
+                            <h1 class="underline3"><span>Чистка и&nbsp;дезинфекция систем вентиляции и&nbsp;кондиционирования в </span><span>&nbsp;Краснодаре</span></h1>
+                            <p>Профессиональные работы по очистке систем вентиляции всех типов</p>					
+                            <button type="button" class="btn main-button" onclick="popup('recall')">Оставить заявку</button>	
+                        </div>
+                        <div class="main-promo-img filter-image">
+                            <picture>
+                                <source srcset="content/image/main-promo.webp" type="image/webp">
+                                <img src="content/image/main-promo.png" alt="image" loading="lazy" itemprop="contentUrl">
+                            </picture>				
+                        </div>
+                    </div>	
+                </div>
+            </section>
+            <section class="services"> 
+                    <div class="wrapper">
+                        <div class="services-block flex-row filter-image">
+                            <div class="services-main-item">
+                                <h2 class="title underline3"><span>Наши </span><span>услуги</span></h2>
+                                <p>Мы&nbsp;оказываем полный спектр услуг по&nbsp;очистке систем вентиляции и&nbsp;кондиционирования воздуха</p>
+                            </div>	
+                            <div class="services-list filter-image">
+                                <div class="services-item flex-column">
+                                    <span></span><span></span>
+                                    <h3>Чистка систем вентиляции от&nbsp;пыли</h3>
+                                    <a href="#" class="btn second-btn">Подробнее</a>
+                                </div>                                                    
+                                <div class="services-item flex-column">
+                                    <span></span><span></span>
+                                    <h3>Чистка систем вентиляции от&nbsp;жира</h3>
+                                    <a href="#" class="btn second-btn">Подробнее</a>
+                                </div>                                                    <div class="services-item flex-column">
+                                    <span></span><span></span>
+                                    <h3>Дезинфекция систем вентиляции и&nbsp;кондиционирования</h3>
+                                    <a href="#" class="btn second-btn">Подробнее</a>
+                                </div>                                                    <div class="services-item flex-column">
+                                    <span></span><span></span>
+                                    <h3>Техническое обслуживание систем вентиляции и&nbsp;кондиционирования</h3>
+                                    <a href="#" class="btn second-btn">Подробнее</a>
+                                </div>                                                    
+                            </div>
+                        </div>	
+                    </div>
+            </section>
+            <section class="benefits"> 
+                <div class="wrapper">
+                    <div class="benefits-content flex-column">
+                        <h2 class="title underline3"><span>Почему сотрудничество с&nbsp;нами </span><span>выгодно</span></h2>
+                        <p>Мы&nbsp;оказываем полный спектр услуг по&nbsp;очистке систем вентиляции и&nbsp;кондиционирования воздуха</p>
+                        <div class="benefits-list flex-row">
+                            <div class="benefits-item flex-column">
+                                <picture>
+                                    <img src="img/benefits-1.png" alt="benefits-1">
+                                </picture>
+                                <h3>Время</h3>
+                                <p>выезжаем в&nbsp;любое удобное для&nbsp;вас&nbsp;время</p>
+                            </div>
+                            <div class="benefits-item flex-column">
+                                <picture>
+                                    <img src="img/benefits-2.png" alt="benefits-2">
+                                </picture>
+                                <h3>Гарантии</h3>
+                                <p>видеоотчет на&nbsp;электронном носителе</p>
+                            </div>
+                            <div class="benefits-item flex-column">
+                                <picture>
+                                    <img src="img/benefits-3.png" alt="benefits-3">
+                                </picture>
+                                <h3>Объекты</h3>
+                                <p>работаем с&nbsp;разными уровнями сложности</p>
+                            </div>
+                            <div class="benefits-item flex-column">
+                                <picture>
+                                    <img src="img/benefits-4.png" alt="benefits-4">
+                                </picture>
+                                <h3>Документ</h3>
+                                <p>журнал для&nbsp;инспектирующих органов</p>
+                            </div>
+                        </div>			
+                    </div>	
+                </div>
+            </section>
+            <section class="form-section">
+                <div class="wrapper">
+                    <div class="form-block flex-row">
+                        <div class="form-content">
+                            <h2 class="title underline3"><span>Закажите </span><span>осмотр</span></h2>
+                            <p>Наш&nbsp;менеджер свяжется с&nbsp;вами, ответит на&nbsp;все&nbsp;вопросы и&nbsp;предложит самые выгодные условия сотрудничества!</p>
+                            <form class="form flex-column" method="POST" action="/" id="send-request1">
+                                <input type="hidden" name="phone">
+                                <input type="hidden" name="email">
+                                <input type="hidden" name="name">				
+                                <div class="form-field flex-column">
+                                    <label class="form-label" for="input-name1" tabindex="0">Ваше&nbsp;имя</label>
+                                    <input class="form-input tool-focus" id="input-name1" type="text" name="fio" placeholder="Введите имя" required="">
+                                    <div class="tooltip-form-main tooltip-name-error">
+                                        <span>Введите имя</span>
+                                        <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                                    </div>
+                                </div>
+                                <div class="form-field flex-column">
+                                    <label class="form-label" for="input-tel1" tabindex="0">Номер телефона</label>
+                                    <input class="form-input tool-focus phone-input" id="input-tel1" type="tel" name="mobile" placeholder="7 (800) _ _ _ _ _ _ _" required="">
+                                    <div class="tooltip-form-main tooltip-phone-error">
+                                        <span>Введите телефон</span>
+                                        <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                                    </div>
+                                </div>	
+                                <div class="form-field flex-column">
+                                    <label class="form-label" for="input-mail1" tabindex="0">Электронная почта</label>
+                                    <input class="form-input tool-focus" id="input-mail1" type="email" name="mail" placeholder="pochta@yandex.ru" required="">
+                                    <div class="tooltip-form-main tooltip-email-error">
+                                        <span>Введите E-mail</span>
+                                        <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                                    </div>
+                                </div>				
+                                <div class="form-field">
+                                    <div class="checkbox-area">
+                                        <input class="custom-checkbox" id="consent-checkbox1" name="policy" type="checkbox">
+                                        <label class="checkbox-label tool-focus" for="consent-checkbox1" tabindex="0">
+                                            <span>
+                                                <span>Я&nbsp;соглашаюсь с</span>
+                                                <a href="#" target="_blank"> политикой конфиденциальности</a>
+                                            </span>							
+                                        </label>
+                                        <div id="tooltip-consent-checkbox1" class="tooltip-form-main tooltip-checkbox">
+                                            <span>Вы должны согласиться с обработкой персональных данных</span>
+                                            <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                                        </div>
+                                    </div>
+                                </div>					
+                                <input type="hidden" value="/" name="url">
+                                <input type="hidden" value="" name="utm">
+                                <input type="hidden" name="tag" value="Основная форма заявки">
+                                <input type="hidden" name="modul" value="request1">
+                                <div class="form-field-btn">
+                                    <button class="btn main-button" type="button" onclick="checkForm('consent-checkbox1', 'send-request1')">Оставить заявку</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="form-img-column filter-image">
+                            <p class="underline3"><span>Наши специалисты проведут осмотр вентиляции </span><span>бесплатно</span></p>
+                            <picture>
+                                <source srcset="content/image/order-form.webp" type="image/webp">
+                                <img src="content/image/order-form.png" alt="image" loading="lazy" itemprop="contentUrl">
+                            </picture>			
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reasons"> 
+                <div class="wrapper">
+                    <div class="reasons-block flex-column filter-image">
+                        <h2 class="title underline1"><span>Зачем </span><span>проводить очистку и&nbsp;дезинфекцию</span></h2>
+                        <div class="reasons-content flex-column">
+                            <div class="reasons-list">
+                                <div class="reasons-item flex-column">
+                                    <span></span><span></span>
+                                    <picture>
+                                        <img src="img/reasons-1.png" alt="reasons-1">
+                                    </picture>
+                                    <p><span>Вы&nbsp;легко пройдёте </span><span>проверку </span><span>у&nbsp;инспектирующих </span><span>органов</span></p>
+                                </div>	
+                                <div class="reasons-item flex-column">
+                                    <span></span><span></span>
+                                    <picture>
+                                        <img src="img/reasons-2.png" alt="reasons-1">
+                                    </picture>
+                                    <p>Вы&nbsp;устраните источники инфекции, тем&nbsp;самым снизите количество больничных листов</p>
+                                </div>
+                                <div class="reasons-item flex-column">
+                                    <span></span><span></span>
+                                    <picture>
+                                        <img src="img/reasons-3.png" alt="reasons-1">
+                                    </picture>
+                                    <p>Вы&nbsp;сэкономите на&nbsp;затратах на&nbsp;электроэнергию до&nbsp;20% в&nbsp;год&nbsp;посредствам снижения нагрузки</p>
+                                </div>				
+                            </div>
+                            <picture>
+                                <source srcset="content/image/reasons.webp" type="image/webp">
+                                <img src="content/image/reasons.png" alt="image" loading="lazy" itemprop="contentUrl">
+                            </picture>				
+                        </div>			
+                    </div>	
+                </div>
+            </section>
+            <section class="steps"> 
+                <div class="wrapper">
+                    <div class="steps-content flex-column">
+                        <h2 class="title underline3"><span>Как&nbsp;мы&nbsp;</span><span>работаем</span></h2>
+                        <p>Мы&nbsp;оказываем полный спектр услуг по&nbsp;очистке систем вентиляции и&nbsp;кондиционирования воздуха</p>
+                        <div class="steps-list flex-row">
+                            <div class="steps-item flex-column">
+                                <picture>
+                                    <img src="img/steps-1.png" alt="benefits-1">
+                                </picture>
+                                <h3>Заявка и&nbsp;осмотр</h3>
+                                <p>Оставьте заявку или позвоните по телефону. Инженер приедет в назначенное время на осмотр</p>
+                            </div>
+                            <div class="steps-arrow-item flex-center">
+                                <svg><use href="img/sprite.svg#steps-arrow"></use></svg>
+                            </div>	
+                            <div class="steps-item flex-column">
+                                <picture>
+                                    <img src="img/steps-2.png" alt="benefits-2">
+                                </picture>
+                                <h3>Расчёт стоимости</h3>
+                                <p>После диагностики наш специалист составит смету с указанием стоимости работ</p>
+                            </div>
+                            <div class="steps-arrow-item flex-center">
+                                <svg><use href="img/sprite.svg#steps-arrow"></use></svg>
+                            </div>	
+                            <div class="steps-item flex-column">
+                                <picture>
+                                    <img src="img/steps-3.png" alt="benefits-3">
+                                </picture>
+                                <h3>Выполнение работ</h3>
+                                <p>Заключаем договор с указанием точной стоимости и приступаем к выполнению работ</p>
+                            </div>			
+                        </div>			
+                    </div>	
+                </div>
+            </section>
+            <section class="form-bubble form-section">
+                <div class="wrapper">
+                    <div class="form-block">
+                        <div class="form-content">
+                            <h2 class="title underline3"><span>Вы&nbsp;можете&nbsp;оставить</span><span> заявку</span></h2>
+                            <p>Наш&nbsp;менеджер свяжется с&nbsp;вами, ответит на&nbsp;все&nbsp;вопросы и&nbsp;предложит самые выгодные условия сотрудничества!</p>                                
+                            <form class="form flex-column" method="POST" action="/" id="send-request2">
+                                <input type="hidden" name="phone">
+                                <input type="hidden" name="email">
+                                <input type="hidden" name="name">				
+                                <div class="form-field flex-column">
+                                    <label class="form-label" for="input-name2" tabindex="0">Ваше&nbsp;имя</label>
+                                    <input class="form-input tool-focus" id="input-name2" type="text" name="fio" placeholder="Введите имя" required="">
+                                    <div class="tooltip-form-main tooltip-name-error">
+                                        <span>Введите имя</span>
+                                        <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                                    </div>
+                                </div>
+                                <div class="form-field flex-column">
+                                    <label class="form-label" for="input-tel2" tabindex="0">Номер телефона</label>
+                                    <input class="form-input tool-focus phone-input" id="input-tel2" type="tel" name="mobile" placeholder="7 (800) _ _ _ _ _ _ _" required="">
+                                    <div class="tooltip-form-main tooltip-phone-error">
+                                        <span>Введите телефон</span>
+                                        <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                                    </div>
+                                </div>	
+                                <div class="form-field flex-column">
+                                    <label class="form-label" for="input-mail2" tabindex="0">Электронная почта</label>
+                                    <input class="form-input tool-focus" id="input-mail2" type="email" name="mail" placeholder="pochta@yandex.ru" required="">
+                                    <div class="tooltip-form-main tooltip-email-error">
+                                        <span>Введите E-mail</span>
+                                        <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                                    </div>
+                                </div>				
+                                <div class="form-field">
+                                    <div class="checkbox-area">
+                                        <input class="custom-checkbox" id="consent-checkbox2" name="policy" type="checkbox">
+                                        <label class="checkbox-label tool-focus" for="consent-checkbox2" tabindex="0">
+                                            <span>
+                                                <span>Я&nbsp;соглашаюсь с</span>
+                                                <a href="#" target="_blank"> политикой конфиденциальности</a>
+                                            </span>							
+                                        </label>
+                                        <div id="tooltip-consent-checkbox2" class="tooltip-form-main tooltip-checkbox">
+                                            <span>Вы должны согласиться с обработкой персональных данных</span>
+                                            <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                                        </div>
+                                    </div>
+                                </div>					
+                                <input type="hidden" value="/" name="url">
+                                <input type="hidden" value="" name="utm">
+                                <input type="hidden" name="tag" value="Основная форма заявки">
+                                <input type="hidden" name="modul" value="request2">
+                                <div class="form-field-btn">
+                                    <button class="btn main-button" type="button" onclick="checkForm('consent-checkbox2', 'send-request2')">Оставить заявку</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>		
+                </div>
+            </section>					
+		</main>
+        <footer class="footer-container gradient-bg">
+            <div class="wrapper">
+                <div class="footer-top flex-row">
+                    <div class="footer-column-logo flex-column">
+                        <a href="#">
+                            <img src="img/footer-logo.png" alt="Devkalion">
+                        </a>
+                    </div>
+                    <ul class="footer-column-menu flex-column">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О&nbsp;нас</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <ul class="footer-column-categories flex-column">
+                        <li><a href="#" itemprop="url">Чистка систем вентиляции от&nbsp;пыли</a></li>
+                        <li><a href="#" itemprop="url">Чистка систем вентиляции от&nbsp;жира</a></li>
+                        <li><a href="#" itemprop="url">Дезинфекция систем вентиляции и&nbsp;кондиционирования</a></li>
+                        <li><a href="#" itemprop="url">Техническое обслуживание систем вентиляции и&nbsp;кондиционирования</a></li>										
+                    </ul>
+                    <div class="footer-column-social flex-column">
+                        <button type="button" class="btn second-btn" onclick="popup('recall')"><span>Заказать звонок</span></button>
+                        <div class="flex-row">
+                            <svg><use href="img/sprite.svg#tel-icon-footer"></use></svg>
+                            <a href="tel:+78005673411" rel="nofollow" class="flex-center"><span>+7 (800) 567–34–11</span><span class="not-desktop flex-center"><svg><use href="img/sprite.svg#tel-icon-footer"></use></svg></span></a>
+                        </div>								
+                    </div>
+                </div>
+            </div>
+            <span></span>
+            <div class="wrapper">
+                <div class="footer-bottom flex-row">
+                    <p>©Devkalion, 2022</p>
+                    <a href="#" rel="nofollow" target="_blank">Политика конфиденциальности</a>
+                    <a href="https://familyteam.one" rel="nofollow" target="_blank">Made in FT</a>
+                </div>
+            </div>
+        </footer>
+    </div> 
+    <div class="popup flex-column" id="recall">
+        <h2 class="popup-title title">Закажите осмотр бесплатно</h2>
+        <form class="form flex-column" method="POST" action="/" id="send-request4">
+            <input type="hidden" name="phone">
+            <input type="hidden" name="email">
+            <input type="hidden" name="name">				
+            <div class="form-field flex-column">
+                <label class="form-label" for="input-name4" tabindex="0">Ваше&nbsp;имя</label>
+                <input class="form-input tool-focus" id="input-name4" type="text" name="fio" placeholder="Введите имя" required="">
+                <div class="tooltip-form tooltip-form-main tooltip-name-error">
+                    <span>Введите имя</span>
+                    <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                </div>
+            </div>
+            <div class="form-field flex-column">
+                <label class="form-label" for="input-tel4" tabindex="0">Номер телефона</label>
+                <input class="form-input tool-focus phone-input" id="input-tel4" type="tel" name="mobile" placeholder="7 (800) _ _ _ _ _ _ _" required="">
+                <div class="tooltip-form tooltip-form-main tooltip-phone-error">
+                    <span>Введите телефон</span>
+                    <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                </div>
+            </div>	
+            <div class="form-field flex-column">
+                <label class="form-label" for="input-mail4" tabindex="0">Электронная почта</label>
+                <input class="form-input tool-focus" id="input-mail4" type="email" name="mail" placeholder="pochta@yandex.ru" required="">
+                <div class="tooltip-form tooltip-form-main tooltip-email-error">
+                    <span>Введите E-mail</span>
+                    <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                </div>
+            </div>				
+            <div class="form-field">
+                <div class="checkbox-area">
+                    <input class="custom-checkbox" id="consent-checkbox4" name="policy" type="checkbox">
+                    <label class="checkbox-label tool-focus" for="consent-checkbox4" tabindex="0">
+                        <span>
+                            <span>Я&nbsp;соглашаюсь с</span>
+                            <a href="#" target="_blank"> политикой конфиденциальности</a>
+                        </span>							
+                    </label>
+                    <div id="tooltip-consent-checkbox4" class="tooltip-form tooltip-form-main tooltip-checkbox">
+                        <span>Вы должны согласиться с обработкой персональных данных</span>
+                        <span><svg><use href="img/sprite.svg#attention"></use></svg></span>
+                    </div>
+                </div>
+            </div>					
+            <input type="hidden" value="/" name="url">
+            <input type="hidden" value="" name="utm">
+            <input type="hidden" name="tag" value="Основная форма заявки">
+            <input type="hidden" name="modul" value="request4">
+            <div class="form-field-btn">
+                <button class="btn main-button" type="button" onclick="checkForm('consent-checkbox4', 'send-request4')">Оставить заявку</button>
+            </div>
+        </form>
+    </div>
+    <div class="popup success-popup flex-column" id="success-popup">	
+        <p>Ваша заявка успешно отправлена!</p>
+        <p>Спасибо!</p>
+    </div>
+    <div class="popup error-popup flex-column" id="error-popup">
+        <button type="button" class="popup-close-btn"><svg><use href="img/close-btn.svg#close-btn"></use></svg></button>
+        <h2>Ошибка!</h2>
+        <p>Сообщение не было доставлено!</p>
+        <p>Повторите отправку еще раз</p>
+    </div>
+    <div class="cookie-container" id="cookie-notice">
+		<div class="wrapper">
+			<div class="cookie-block flex-row">
+				<div class="cookie-content flex-row">
+				<p><span>Мы&nbsp;используем файлы cookie.</span><span><a href="#" target="_blank">Соглашение об&nbsp;использовании</a></span>
+				</p>
+				<button class="btn second-btn" id="cookie-close" type="button"><span>Принять</span></button>
+				</div>
+			</div>			
+		</div>	
+	</div>
+    <script src="js/vanilla-masker.min.js"></script>
+    <script src="js/tingle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

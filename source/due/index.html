@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta name="robots" content="index, follow">
+        <title>Главная</title>
+        <meta charset="utf-8">
+        <meta name="Description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="application-name" content="Due Diligence Service">
+        <meta name="copyright" content="Due Diligence Service">
+        <link rel="preload" href="css/style_v1.css" as="style">
+        <link rel="preload" href="css/media_v1.css" as="style">
+        <link rel="stylesheet" href="css/style_v1.css">
+        <link rel="stylesheet" href="css/media_v1.css">
+        <link rel="icon" href="img/1.png" type="image/png">  
+        <link rel="canonical" href="http://due.local">  
+        <meta property="og:title" content="Главная">
+        <meta property="og:description" content="">
+        <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="img/logo-og.jpg">
+        <meta property="og:site_name" content="due.local"> 
+    </head>
+    <body>  
+        <div class="body-container">
+            <header class="header-container">
+                <div class="wrapper">
+                    <div class="header-block flex-row">
+                        <div class="header-column-logo flex-row">
+                            <a href="#" class="flex-row">
+                                <img src="img/header-logo.png" alt="Due Diligence Service">
+                            </a>
+                        </div>
+                        <div class="header-column-callback flex-row">
+                            <button class="btn callback-btn flex-center not-mobile" type="button" onclick="popup('recall')">
+                                <span>Заказать обратный звонок</span>
+                            </button>
+                            <div class="header-callback flex-column">
+                                <a href="tel:+88000000000" rel="nofollow" class="flex-row"><svg><use href="img/header-tel.svg#header-tel"></use></svg><span class="not-mobile">+8 (800) 000-00-00</span></a>
+                                <p class="not-mobile">Ежедневно с 9:00 до 20:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main-container">
+                <section class="promo"> 
+                    <div class="promo-bg">
+                        <div class="wrapper">	
+                            <div class="promo-block flex-row">
+                                <div class="promo-content flex-column">
+                                    <h1><span>Due Diligence</span><span>для малого <br>и среднего бизнеса</span></h1>
+                                    <p>Комплексная проверка бизнеса, снижающая риски инвестиций</p>
+                                    <div class="promo-img">
+                                        <picture>
+                                            <source srcset="content/image/promo.webp" type="image/webp">
+                                            <img src="content/image/promo.png" alt="image" loading="lazy" itemprop="contentUrl">
+                                        </picture>			
+                                    </div>
+                                    <div class="promo-btn">
+                                        <a href="#mainForm1" class="btn main-button flex-center"><span>Получить консультацию</span></a>	
+                                    </div>				
+                                </div>
+                            </div>							
+                        </div>
+                    </div>		
+                </section>
+                <section class="about" id="chto-takoe"> 
+                    <div class="wrapper2">		
+                        <div class="about-block flex-row">
+                            <div class="about-content flex-row">
+                                <div class="about-img">
+                                    <picture>
+                                        <source srcset="content/image/about-m.webp" media="(max-width: 480px)" type="image/webp">
+                                        <source srcset="content/image/about-m.png" media="(max-width: 480px)">
+                                        <source srcset="content/image/about.webp" type="image/webp">
+                                        <img src="content/image/about.jpg" alt="image" loading="lazy" itemprop="contentUrl">
+                                    </picture>				
+                                </div>
+                                <div class="about-text flex-column">
+                                    <h2><span class="capslock">Due Diligence - </span>что это такое?</h2>
+                                    <p>Услуга <span class="capslock">Due Diligence</span> - это полная и всесторонняя проверка бизнеса или инвестиционного проекта перед покупкой</p>	
+                                    <p>Процедура <span class="capslock">Due Diligence</span> позволяет получить объективное представление об объекте инвестирования, а также оценку инвестиционных рисков на основе всестороннего исследования деятельности компании, включая комплексную проверку её финансового состояния и положения на рынке</p>		
+                                </div>
+                            </div>			
+                        </div>	
+                    </div>		
+                </section>
+                <section class="reasons"> 
+                    <div class="wrapper">	
+                        <div class="reasons-content flex-column">
+                            <h2 class="title"><span>Зачем проводить комплексную </span><span>проверку объекта инвестиций</span></h2>
+                            <div class="reasons-list flex-row">
+                                <div class="reasons-item flex-column">
+                                    <div class="reasons-img reasons-img-01"></div>
+                                    <h3>Достоверность</h3>
+                                    <p><span>Мы скажем вам реальную стоимость </span><span>бизнеса. Зачастую готовый бизнес </span><span>продают по завышенным ценам, </span><span>а иногда даже и с долгами</span></p>
+                                </div>	
+                                <div class="reasons-item flex-column">
+                                    <div class="reasons-img reasons-img-02"></div>
+                                    <h3>Проблемы</h3>
+                                    <p><span>Мы находим проблемы </span><span>и озвучиваем их. Это может быть </span><span>как неэффективное управление, </span><span>так и нарушения в сдаче отчетности</span></p>
+                                </div>
+                                <div class="reasons-item flex-column">
+                                    <div class="reasons-img reasons-img-03"></div>
+                                    <h3>Риски</h3>
+                                    <p><span>Мы предупреждаем о разных рисках - </span><span>от административных до рисков, </span><span>которые могут привести к признанию </span><span>сделки недействительной</span></p>
+                                </div>	
+                            </div>
+                        </div>							
+                    </div>	
+                </section>
+                <section class="checklist" id="chto-proveryaem"> 
+                    <div class="wrapper">	
+                        <div class="checklist-content flex-column">
+                            <h2 class="title">Что мы проверяем</h2>
+                            <div class="checklist-list flex-row">
+                                <div class="checklist-item flex-column checklist-item-01">
+                                    <span class="checklist-number"></span>
+                                    <h3>Безопасность</h3>
+                                    <p><span>Проект в первую очередь проверяется </span><span>на предмет возможных мошеннических схем. Также проверяется инициатор </span><span>проекта (продавец бизнеса)</span></p>
+                                </div>
+                                <div class="checklist-item flex-column checklist-item-02">
+                                    <span class="checklist-number"></span>
+                                    <h3>Финансовые риски</h3>
+                                    <p><span>Проверяются финансовые показатели </span><span>на основании бухгалтерской (финансовой) </span><span>отчетности</span></p>
+                                </div>
+                                <div class="checklist-item flex-column checklist-item-03">
+                                    <span class="checklist-number"></span>
+                                    <h3>Налоговые риски</h3>
+                                    <p><span>Анализируется состав налоговых </span><span>обязательств и риски возможных </span><span>претензий со стороны ФНС</span></p>
+                                </div>
+                                <div class="checklist-item flex-column checklist-item-04">
+                                    <span class="checklist-number"></span>
+                                    <h3>Юридические риски</h3>
+                                    <p><span>Определяется соответствие деятельности </span><span>компании нормам законодательства, </span><span>а также наличие всей разрешительной </span><span>документации на ведение бизнеса</span></p>
+                                </div>
+                                <div class="checklist-item flex-column checklist-item-05">
+                                    <span class="checklist-number"></span>
+                                    <h3>Конкурентные риски</h3>
+                                    <p><span>В соответствии с динамикой рынка </span><span>проводится анализ жизнеспособности </span><span>предприятия с помощью сопоставления </span><span>показателей компании с предприятиями </span><span>этой же области</span></p>
+                                </div>
+                            </div>
+                        </div>							
+                    </div>	
+                </section>
+                <section class="main-form" id="mainForm1"> 
+                    <div class="wrapper2">		
+                        <div class="main-form-block flex-row">
+                            <div class="main-form-content flex-row">
+                                <div class="main-form-img">
+                                    <picture>
+                                        <source srcset="content/image/main-form-m.webp" media="(max-width: 480px)" type="image/webp">
+                                        <source srcset="content/image/main-form-m.png" media="(max-width: 480px)">
+                                        <source srcset="content/image/main-form.webp" type="image/webp">
+                                        <img src="content/image/main-form.png" alt="image" loading="lazy" itemprop="contentUrl">
+                                    </picture>			
+                                </div>
+                                <div class="main-form-text flex-column">
+                                    <h2>Вам необходима комплексная проверка компании или иного объекта инвестирования?</h2>
+                                    <p>Оставьте заявку и получите консультацию бесплатно!</p>	
+                                    <form class="form flex-row" method="POST" action="/" id="send-request1">
+                                        <input type="hidden" name="phone">
+                                        <input type="hidden" name="name">			
+                                        <div class="form-field main-field-name flex-column">
+                                            <input class="form-input tool-focus" type="text" name="fio" placeholder="Ваше имя" required="">
+                                            <div class="tooltip-form-main tooltip-name-error">
+                                                <span>Введите имя</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-field main-field-phone flex-column">
+                                            <input class="form-input tool-focus phone-input" type="tel" name="mobile" placeholder="Телефон">
+                                            <div class="tooltip-form-main tooltip-phone-error">
+                                                <span>Введите телефон</span>
+                                            </div>
+                                        </div>			
+                                        <div class="form-field">
+                                            <div class="checkbox-area form-policy">
+                                                <input class="custom-checkbox" id="consent-checkbox1" name="policy" type="checkbox">
+                                                <label class="checkbox-label tool-focus" for="consent-checkbox1" tabindex="0">
+                                                    <span>
+                                                        <span>Я соглашаюсь с</span>
+                                                        <a href="#" target="_blank"> условиями обработки персональных данных</a>
+                                                    </span>							
+                                                </label>
+                                                <div id="tooltip-consent-checkbox1" class="tooltip-form-main tooltip-checkbox">
+                                                    <span>Вы должны согласиться с обработкой персональных данных</span>
+                                                </div>
+                                            </div>
+                                        </div>					
+                                        <input type="hidden" value="/" name="url">
+                                        <input type="hidden" value="" name="utm">
+                                        <input type="hidden" name="tag" value="Основная форма заявки">
+                                        <input type="hidden" name="modul" value="request1">
+                                        <div class="form-field-btn">
+                                            <button class="btn form-btn flex-center" type="button" onclick="checkForm('consent-checkbox1', 'send-request1')"><span>Отправить</span></button>
+                                        </div>
+                                    </form>		
+                                </div>
+                            </div>			
+                        </div>	
+                    </div>		
+                </section>
+                <section class="danger"> 
+                    <div class="wrapper">	
+                        <div class="danger-block flex-column">
+                            <h2 class="title"><span>Какие могут быть последствия </span><span>если не проводить комплексную </span><span>проверку бизнеса</span></h2>
+                            <div class="danger-content flex-row">
+                                <div class="danger-text-list flex-column">
+                                    <div class="danger-text-item">
+                                        <div class="danger-text-img"></div>
+                                        <h3>Отказ в продлении аренды</h3>
+                                        <p><span>Зачастую инвестор самостоятельно не может увидеть подводных камней. При покупке любого бизнеса хоть то небольшой ресторан или стоматологический кабинет требуется тщательный анализ. Иначе инвестор может остаться без бизнеса. Важную роль играет договор аренды. Если арендодатель отказывается продлевать аренду, то инвестор может потерять недавно купленный бизнес. Ведь территориальный перенос бизнеса – заведомо потеря денег!</span></p>
+                                    </div>
+                                    <div class="danger-text-item">
+                                        <div class="danger-text-img"></div>
+                                        <h3>Банкротство</h3>
+                                        <p><span>Комплексная проверка открывает глаза на бизнес с разных сторон. Бывают случаи, когда по финансовым документам идут хорошие поступления денежных средств. Однако, если копнуть глубже, то сразу видны детальные подробности. У бизнеса может быть один основной заказчик, за счет которого у организации привлекательные цифры денежных поступлений. Этот заказчик может покупать 90% продукции у этой организации. Но насколько финансово устойчиво сейчас состояние фирмы заказчика? Вдруг он находится в предбанкротном состоянии? Из-за чего  новокупленный бизнес может стать не золотой жилой, а неудачным вложением!</span></p>
+                                    </div>
+                                </div>
+                                <div class="danger-img flex-center">
+                                    <picture>
+                                        <source srcset="content/image/danger.webp" type="image/webp">
+                                        <img src="content/image/danger.jpg" alt="image" loading="lazy" itemprop="contentUrl">
+                                    </picture>				
+                                </div>
+                            </div>
+                        </div>							
+                    </div>	
+                </section>
+                <section class="result" id="chto-poluchite"> 
+                    <div class="wrapper">	
+                        <div class="result-content flex-column">
+                            <h2 class="title">В рамках услуги <span class="capslock">Due Diligence</span> вы получите:</h2>
+                            <div class="result-list flex-row">
+                                <div class="result-item flex-column">
+                                    <div class="result-img"></div>
+                                    <h3>Реальную оценку</h3>
+                                    <p><span>При покупке бизнеса или участии в инвестиционных проектах </span><span>в рамках малого и среднего бизнеса мы даем реальную оценку </span><span>перед сделкой. Мы проводим комплексную проверку, направленную на сбор объективной информации и экспертной </span><span>оценки сведений об объекте инвестирования</span></p>
+                                </div>	
+                                <div class="result-item flex-column">
+                                    <div class="result-img"></div>
+                                    <h3>Детальное заключение</h3>
+                                    <p><span>Для оценки перспективности сделки важно иметь всестороннее </span><span>представление об объекте инвестирования. Мы даем по итогам </span><span>проверки отчет, в котором перечислим, разъясним выявленные </span><span>риски и дадим рекомендации по их устранению</span></p>
+                                </div>	
+                                <div class="result-item flex-column">
+                                    <div class="result-img"></div>
+                                    <h3>Независимое заключение</h3>
+                                    <p><span>Для оценки потенциальных рисков инвестор зачастую </span><span>приглашает брокера, который ведет сделку, а также проводит </span><span>все необходимые проверки. Однако, брокер - лицо заинтересованное в проведении сделки, так как от этого </span><span>зависит его комиссия. Мы проводим независимую </span><span>и качественную оценку</span></p>
+                                </div>	
+                                <div class="result-item flex-column">
+                                    <div class="result-img"></div>
+                                    <h3>Разумные сроки</h3>
+                                    <p><span>Продолжительность проведения процедуры Due Diligence </span><span>зависит от масштаба бизнеса проверяемой компании </span><span>и поставленных задач. Как правило для составления </span><span>полноценного отчета необходимо от двух недель </span><span>до нескольких месяцев</span></p>
+                                </div>		
+                            </div>
+                        </div>							
+                    </div>	
+                </section>
+                <section class="steps"> 
+                    <div class="wrapper">	
+                        <div class="steps-block flex-column">
+                            <h2 class="title"><span>Этапы проведения комплексной </span><span>оценки объекта инвестиций</span></h2>
+                            <div class="steps-content flex-row">
+                                <div class="steps-text-list flex-column">
+                                    <div class="steps-text-item">
+                                        <div class="steps-number flex-center"><span></span></div>
+                                        <h3>Подготовка</h3>
+                                        <p><span>На этапе подготовительной части определяются </span><span>задачи, объем работ, оговариваются сроки </span><span>и заключается договор</span></p>
+                                    </div>
+                                    <div class="steps-text-item">
+                                        <div class="steps-number flex-center"><span></span></div>
+                                        <h3>Сбор информации</h3>
+                                        <p><span>На этапе сбора информации определяется </span><span>перечень необходимой информации </span><span>и видов документов. При необходимости производятся выезды на место ведения </span><span>бизнеса, а также интервьюирование участников сделки</span></p>
+                                    </div>
+                                    <div class="steps-text-item">
+                                        <div class="steps-number flex-center"><span></span></div>
+                                        <h3>Анализ</h3>
+                                        <p>На этапе анализа осуществляется проверка полученной информации. При необходимости получения дополнительной информации проводятся дополнительные запросы</p>
+                                    </div>
+                                    <div class="steps-text-item">
+                                        <div class="steps-number flex-center"><span></span></div>
+                                        <h3>Отчет</h3>
+                                        <p><span>На заключительном этапе осуществляется </span><span>изложение выводов по проверке </span><span>и составляется итоговый отчет</span></p>
+                                    </div>
+                                </div>
+                                <div class="steps-img flex-center">
+                                    <picture>
+                                        <source srcset="content/image/steps-m.webp" media="(max-width: 480px)" type="image/webp">
+                                        <source srcset="content/image/steps-m.png" media="(max-width: 480px)">
+                                        <source srcset="content/image/steps.webp" type="image/webp">
+                                        <img src="content/image/steps.jpg" alt="image" loading="lazy" itemprop="contentUrl">
+                                    </picture>				
+                                </div>
+                            </div>
+                        </div>							
+                    </div>	
+                </section>
+                <section class="projects"> 
+                    <div class="wrapper">	
+                        <div class="projects-content flex-column">
+                            <h2 class="title"><span>Кейсы </span><span>наших клиентов</span></h2>
+                            <div class="projects-list flex-row">
+                                <div class="projects-item flex-column">				
+                                    <h3>Кейс №1</h3>
+                                    <p>На продажу был выставлен сервис, который в автоматическом режиме предоставлял выписки 
+                                        из Единого Государственного Реестра Недвижимости (ЕГРН).</p>
+                                    <p>Стоимость портала составляла 2 млн рублей.</p>
+                                    <p>
+                                        <span>Согласно предоставленным отчетам сервис </span>
+                                        <span>в месяц генерировал чистую прибыль в размере </span>
+                                        <span>100 тыс. рублей.</span>
+                                    </p>
+                                    <p>В ходе проверки было установлено, что 30.04.2021 в Федеральный закон № 218-ФЗ 
+                                        «О государственной регистрации недвижимости» были внесены изменения, согласно которым полученные 
+                                        сведения из ЕГРН не могут быть перепроданы тем, кто их получил, другому лицу.</p>
+                                    <div class="projects-danger flex-center">
+                                        <p>Таким образом, выставленный сервис на продажу реализовывался в виду того, что стал незаконным и 
+                                            владелец пытался от него избавиться, при этом еще и заработать денежных средств</p>
+                                    </div>
+                                </div>	
+                                <div class="projects-item flex-column">					
+                                    <h3>Кейс №2</h3>                                        
+                                    <p>На продажу была выставлена компания, которая оказывает клининговые услуги.</p>
+                                    <p>Стоимость бизнеса составляла 6 млн рублей.</p>
+                                    <p>Оборот компании за предыдущий год составлял 25 млн рублей. А за 4 месяца текущего года, портфель 
+                                        заказов уже составлял 18 млн рублей. </p>
+                                    <p>В ходе проверки было установлено, что все 100% выручки компании составляют гос. контракты, 
+                                        которая компания выигрывала сильно демпингуя. Вследствие чего себестоимость услуг была выше стоимости, 
+                                        указанной в контрактах. Убыток компенсировался за счет выигрывания новых гос. контрактов.</p>
+                                    <div class="projects-danger flex-center">
+                                        <p>Таким образом, при такой схеме всего один месяц без выигранного гос. контракта может разрушить 
+                                            выстроенную пирамиду. Это понимал и собственник бизнеса, а потому хотел как можно 
+                                            быстрее продать бизнес</p>
+                                    </div>
+                                </div>	
+                            </div>
+                        </div>							
+                    </div>	
+                </section>
+                <section class="main-form main-form2"> 
+                    <div class="wrapper2">		
+                        <div class="main-form-block flex-row">
+                            <div class="main-form-content flex-row">				
+                                <div class="main-form-text flex-column">
+                                    <h2><span>Хотите минимизировать риски </span><span>при покупке готового бизнеса </span><span>или  инвестировать денежные </span><span>средства?</span></h2>
+                                    <p><span>Оставьте заявку на бесплатную консультацию </span><span>по вопросам <span class="capslock">Due Diligence</span></span></p>	
+                                    <form class="form flex-row" method="POST" action="/" id="send-request2">
+                                        <input type="hidden" name="phone">
+                                        <input type="hidden" name="name">			
+                                        <div class="form-field main-field-name flex-column">
+                                            <input class="form-input tool-focus" type="text" name="fio" placeholder="Ваше имя" required="">
+                                            <div class="tooltip-form-main tooltip-name-error">
+                                                <span>Введите имя</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-field main-field-phone flex-column">
+                                            <input class="form-input tool-focus phone-input" type="tel" name="mobile" placeholder="Телефон" required="">
+                                            <div class="tooltip-form-main tooltip-phone-error">
+                                                <span>Введите телефон</span>
+                                            </div>
+                                        </div>			
+                                        <div class="form-field">
+                                            <div class="checkbox-area form-policy">
+                                                <input class="custom-checkbox" id="consent-checkbox2" name="policy" type="checkbox">
+                                                <label class="checkbox-label tool-focus" for="consent-checkbox2" tabindex="0">
+                                                    <span>
+                                                        <span>Я соглашаюсь с</span>
+                                                        <a href="#" target="_blank"> условиями обработки персональных данных</a>
+                                                    </span>							
+                                                </label>
+                                                <div id="tooltip-consent-checkbox2" class="tooltip-form-main tooltip-checkbox">
+                                                    <span>Вы должны согласиться с обработкой персональных данных</span>
+                                                </div>
+                                            </div>
+                                        </div>					
+                                        <input type="hidden" value="/" name="url">
+                                        <input type="hidden" value="" name="utm">
+                                        <input type="hidden" name="tag" value="Основная форма заявки">
+                                        <input type="hidden" name="modul" value="request2">
+                                        <div class="form-field-btn">
+                                            <button class="btn form-btn flex-center" type="button" onclick="checkForm('consent-checkbox2', 'send-request2')"><span>Получить консультацию</span></button>
+                                        </div>
+                                    </form>		
+                                </div>
+                                <div class="main-form-img">
+                                    <picture>
+                                        <source srcset="content/image/main-form2-m.webp" media="(max-width: 480px)" type="image/webp">
+                                        <source srcset="content/image/main-form2-m.png" media="(max-width: 480px)">
+                                        <source srcset="content/image/main-form2.webp" type="image/webp">
+                                        <img src="content/image/main-form2.png" alt="image" loading="lazy" itemprop="contentUrl">
+                                    </picture>		
+                                </div>
+                            </div>			
+                        </div>	
+                    </div>		
+                </section>					
+            </main>
+            <footer class="footer-container">
+                <div class="wrapper">
+                    <div class="footer-block flex-row">
+                        <p>© Due Diligence Service</p>
+                        <a class="policy" href="#" rel="nofollow" target="_blank">Политика конфиденциальности</a>
+                        <a class="policy" href="https://familyteam.one" rel="nofollow" target="_blank">Made in FT</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="popup flex-column" id="recall">
+            <h2 class="popup-title">Заказ звонка</h2>
+            <form class="form flex-row" method="POST" action="/" id="send-request3">
+                <input type="hidden" name="phone">
+                <input type="hidden" name="name">			
+                <div class="form-field main-field-name flex-column">
+                    <input class="form-input tool-focus" type="text" name="fio" placeholder="Ваше имя" required="">
+                    <div class="tooltip-form-main tooltip-name-error">
+                        <span>Введите имя</span>
+                    </div>
+                </div>
+                <div class="form-field main-field-phone flex-column">
+                    <input class="form-input tool-focus phone-input" type="tel" name="mobile" placeholder="Телефон">
+                    <div class="tooltip-form-main tooltip-phone-error">
+                        <span>Введите телефон</span>
+                    </div>
+                </div>			
+                <div class="form-field">
+                    <div class="checkbox-area form-policy">
+                        <input class="custom-checkbox" id="consent-checkbox3" name="policy" type="checkbox">
+                        <label class="checkbox-label tool-focus" for="consent-checkbox3" tabindex="0">
+                            <span>
+                                <span>Я соглашаюсь с</span>
+                                <a href="#" target="_blank"> условиями обработки персональных данных</a>
+                            </span>							
+                        </label>
+                        <div id="tooltip-consent-checkbox3" class="tooltip-form-main tooltip-checkbox">
+                            <span>Вы должны согласиться с обработкой персональных данных</span>
+                        </div>
+                    </div>
+                </div>					
+                <input type="hidden" value="/" name="url">
+                <input type="hidden" value="" name="utm">
+                <input type="hidden" name="tag" value="Основная форма заявки">
+                <input type="hidden" name="modul" value="request3">
+                <div class="form-field-btn popup-field-btn">
+                    <button class="btn form-btn flex-center" type="button" onclick="checkForm('consent-checkbox3', 'send-request3')"><span>Заказать звонок</span></button>
+                </div>
+            </form>	
+        </div>
+        <div class="popup success-popup flex-column" id="success-popup">
+            <svg><use href="img/popup-success-check.svg#popup-success-check"></use></svg>
+            <h2>Спасибо!</h2>
+            <p>Ваша заявка отправлена</p>
+            <p><span>Наш менеджер свяжется с Вами </span><span>в течение дня!</span></p>
+        </div>
+        <div class="popup error-popup flex-column" id="error-popup">
+            <svg><use href="img/popup-error-cross.svg#popup-error-cross"></use></svg>
+            <h2>Ошибка!</h2>
+            <p>Сообщение не было доставлено!</p>
+            <p>Повторите отправку еще раз</p>
+        </div> 
+        <script src="js/vanilla-masker.min.js"></script>
+        <script src="js/tingle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
