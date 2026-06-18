@@ -1,0 +1,42 @@
+:root {
+	--black: #000000;
+	--white: #FFFFFF;
+	--red: #EF4444;
+	--lite-red: #F87171;
+	--dark-red: #DC2626;
+	--blue: #4479DB;
+	--lite-blue: #6EA0FF;
+	--dark-blue: #1F3F9E;
+	--orange: #F97316;
+	--lite-orange: #FB923C;
+	--dark-orange: #EA580C;
+	--green: #22C55E;
+	--lite-green: #4ADE80;
+	--dark-green: #16A34A;
+	--violet: #8B5CF6;
+	--lite-violet: #A78BFA;
+	--dark-violet: #7C3AED;
+	--slate: #CBD5E1;
+	--lite-slate: #F1F5F9;
+	--dark-slate: #1E293B;
+	--transition: all 0.2s ease-in-out;
+	--transition2: all 0.4s ease-in-out;
+	--modal-bg: rgba(0, 0, 0, 0.7);
+	--modal-close: #FFFFFF;
+	--modal-close-hover: #61FFFF;
+	--modal-box-content: #FFFFFF;
+
+	--main-dark-blue: #293048;
+	--main-orange: #FD5B27;
+	--main-light-orange: #F8734A;
+	--main-dark-orange: #EB3800;
+	--main-red:#FF0A0A;
+	--main-light-sky: #F3F9FD;
+	--main-dark-blue: #2D3553;
+	--main-gray: #E3E3E3;	
+	--gradient1: radial-gradient(79.17% 79.17% at 120.17% 50%, rgba(253, 91, 39, 0.71) 0%, rgba(253, 91, 39, 0) 100%), #293048;
+	--gradient2: radial-gradient(108.17% 98.17% at -8.83% 4%, rgba(253, 91, 39, 0.71) 0%, rgba(253, 91, 39, 0) 100%), #293048;
+	--gradient3: radial-gradient(79.17% 79.17% at 93.17% 0%, rgba(253, 91, 39, 0.71) 0%, rgba(253, 91, 39, 0) 100%), #293048;
+	--gradient4: radial-gradient(79.17% 79.17% at 58.17% 116%, rgba(253, 91, 39, 0.71) 0%, rgba(253, 91, 39, 0) 100%), #293048;
+	--gradient5: linear-gradient(180deg, rgba(0, 0, 0, 0) 43.01%, rgba(0, 0, 0, 0.65) 92.47%);
+}

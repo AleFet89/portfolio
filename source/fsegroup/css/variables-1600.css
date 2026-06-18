@@ -1,0 +1,153 @@
+@media (max-width: 480px) {
+    :root {
+        /* --font-h1: 32px;
+        --font-h2: 30px;
+        --font-h3: 28px;
+        --font-h4: 26px;
+        --font-h5: 22px;
+        --font-h6-half: 21px;
+        --font-h6: 20px;
+        --font-big: 18px;
+		--font-default: 16px;
+        --font-medium-half: 15px;
+        --font-medium: 14px;
+        --font-small: 13px;
+        --font-smallest: 12px;
+        --font-mini: 10px;  */
+
+        --font-h1: 8.89vw;
+        --font-h2: 8.33vw;
+        --font-h3: 7.78vw;
+        --font-h4: 7.22vw;
+        --font-h5: 6.11vw;
+        --font-h6-half: 5.83vw;
+        --font-h6: 5.56vw;
+        --font-big: 5.00vw;
+		--font-default: 4.44vw;
+        --font-medium-half: 4.17vw;
+        --font-medium: 3.89vw;
+        --font-small: 3.61vw;
+        --font-smallest: 3.33vw;
+        --font-mini: 2.78vw; 
+        --radius-miniest: 0.56vw;
+        --radius-smallest: 0.83vw;
+        --radius-mini: 1.39vw;
+        --radius-small: 2.78vw;
+        --radius-medium: 8.33vw;
+        --radius-big: 13.89vw;
+        --radius-max: 19.44vw;
+        --radius-total: 27.78vw;
+
+        --box-shadow1: 0px 1.11vw 2.50vw 1.11vw rgba(84, 78, 107, 0.15);
+        --box-shadow2: 0 0 10px #94A3B8;
+        --box-shadow3: 0.56vw 0.56vw 5.56vw rgba(41, 48, 72, 0.15);
+        --box-shadow4: 0.56vw 2.22vw 4.44vw rgba(194, 198, 208, 0.06);
+    }
+
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+    :root {
+        /* --font-h1: 32px;
+        --font-h2: 28px;
+        --font-h3: 24px;
+        --font-h4: 23px;
+        --font-h5: 22px;
+        --font-h6-half: 21px;
+        --font-h6: 20px; 
+        --font-big: 18px;
+		--font-default: 16px;
+        --font-medium: 14px;
+        --font-small: 13px;
+        --font-smallest: 12px;
+        --font-mini: 10px;         */
+
+        --font-h1: 4.17vw;
+        --font-h2: 3.65vw;
+        --font-h3: 3.13vw;
+        --font-h4: 2.99vw;
+        --font-h5: 2.86vw;
+        --font-h6-half: 2.73vw;
+        --font-h6: 2.60vw; 
+        --font-big: 2.34vw;
+		--font-default: 2.08vw;
+        --font-medium: 1.82vw;
+        --font-small: 1.69vw;
+        --font-smallest: 1.56vw;
+        --font-mini: 1.30vw;  
+        --radius-miniest: 0.26vw;
+        --radius-smallest: 0.39vw;
+        --radius-mini: 0.65vw;
+        --radius-small: 1.30vw;
+        --radius-medium: 3.91vw;
+        --radius-big: 6.51vw;
+        --radius-max: 9.11vw;
+        --radius-total: 13.02vw;
+
+        --box-shadow1: 0px 0.52vw 1.17vw 0.52vw rgba(84, 78, 107, 0.15);
+        --box-shadow2: 0 0 1.30vw #94A3B8;
+        --box-shadow3: 0.26vw 0.26vw 2.60vw rgba(41, 48, 72, 0.15);
+        --box-shadow4: 0.26vw 1.04vw 2.08vw rgba(194, 198, 208, 0.06);
+    }
+
+}
+@media (min-width: 1024px) and (max-width: 1599px) {
+    :root {
+        --font-h1: 2.25vw;
+        --font-h2: 1.88vw;
+        --font-h3: 1.75vw;
+        --font-h4: 1.63vw;
+        --font-h5: 1.38vw;
+        --font-h6-half: 1.31vw;
+        --font-h6: 1.25vw;
+        --font-big: 1.13vw;
+		--font-default: 1.00vw;
+        --font-medium: 0.88vw;
+        --font-small: 0.81vw;
+        --font-smallest: 0.75vw;
+        --font-mini: 0.63vw;        
+        --radius-miniest: 0.13vw;
+        --radius-smallest: 0.19vw;
+        --radius-mini: 0.31vw;
+        --radius-small: 0.63vw;
+        --radius-medium: 1.88vw;
+        --radius-big: 3.13vw;
+        --radius-max: 4.38vw;
+        --radius-total: 6.25vw;
+
+        --box-shadow1: 0px 0.25vw 0.56vw 0.25vw rgba(84, 78, 107, 0.15);
+        --box-shadow2: 0 0 0.63vw #94A3B8;
+        --box-shadow3: 0.13vw 0.13vw 1.25vw rgba(41, 48, 72, 0.15);
+        --box-shadow4: 0.13vw 0.50vw 1.00vw rgba(194, 198, 208, 0.06);
+    }
+
+}
+@media (min-width: 1600px) {
+    :root {
+        --font-h1: 36px;
+        --font-h2: 30px;
+        --font-h3: 28px;
+        --font-h4: 26px;
+        --font-h5: 22px;
+        --font-h6-half: 21px;
+        --font-h6: 20px;
+        --font-big: 18px;
+		--font-default: 16px;
+        --font-medium: 14px;
+        --font-small: 13px;
+        --font-smallest: 12px;
+        --font-mini: 10px;        
+        --radius-miniest: 2px;
+        --radius-smallest: 3px;
+        --radius-mini: 5px;
+        --radius-small: 10px;
+        --radius-medium: 30px;
+        --radius-big: 50px;
+        --radius-max: 70px;
+        --radius-total: 100px;
+
+        --box-shadow1: 0px 4px 9px 4px rgba(84, 78, 107, 0.15);
+        --box-shadow2: 0 0 10px #94A3B8;
+        --box-shadow3: 2px 2px 20px rgba(41, 48, 72, 0.15);
+        --box-shadow4: 2px 8px 16px rgba(194, 198, 208, 0.06);
+    }
+}

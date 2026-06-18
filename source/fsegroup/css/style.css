@@ -1,0 +1,10 @@
+@import url('variables.css');
+@import url('variables-1600.css');
+@import url('font.css');
+@import url('ft.css');
+@import url('basic.css');
+
+@import url('mobile.css') (max-width: 480px);
+@import url('tablet.css') (min-width: 481px) and (max-width: 1023px);
+@import url('laptop-1600.css') (min-width: 1024px) and (max-width: 1599px);
+@import url('desktop-1600.css') (min-width: 1600px);

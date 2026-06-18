@@ -1,0 +1,356 @@
+@font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/OpenSans-Light.woff2") format("woff2"), url("../fonts/OpenSans-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans Medium"), local("OpenSans-Medium"), url("../fonts/OpenSans-Medium.woff2") format("woff2"), url("../fonts/OpenSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("../fonts/OpenSans-Semibold.woff2") format("woff2"), url("../fonts/OpenSans-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url("../fonts/OpenSans-ExtraBold.woff2") format("woff2"), url("../fonts/OpenSans-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    color: #222222;    
+    overflow-x: hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.h3-title {
+    font-weight: 500;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #288be6;
+    color: #ffffff;
+    font: inherit;
+    text-align: center;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: #0769c3;
+}
+
+.button:active {
+    opacity: 0.5;
+}
+
+.page-header {
+    max-width: 100%;  
+    width: 100%;
+}
+
+.page-header_position {
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
+.page-header__list, .page-footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.page-header__email,
+.page-header__phone {
+    font-weight: 600;
+    color: #1568b4;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+}
+
+.page-header__email:hover,
+.page-header__phone:hover {
+    color: #000000;    
+}
+
+.page-header__email:active,
+.page-header__phone:active {
+    color: #000000;
+    opacity: 0.5;
+}
+
+.page-header__email {
+    background-image: url("../img/icon-email-header.svg");
+}
+
+.page-header__phone {
+    background-image: url("../img/icon-phone-header.svg");
+}
+
+.promo {
+    text-align: center;
+    position: relative;
+    background: #f2f4f6 url("../img/bg.jpg") top center no-repeat;  
+    background-size: cover;
+}
+
+.promo .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 100vh;
+}
+
+.promo__title {
+    font-family: "Times", "Times New Roman", serif;
+    font-weight: 400;    
+}
+
+.promo__text {
+    margin: 0;
+}
+
+.intro {
+    background-color: #f2f4f6;
+}
+
+.intro__item-list {
+    padding: 0;
+    list-style: none;
+}
+
+.intro__item-li {
+    -webkit-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+            transition: all 0.5s ease 0s;
+}
+
+.intro__item-li::before {
+    content: '✔';
+}
+
+.intro__item-li:hover {
+    -webkit-transform:  translateX(6%);
+        -ms-transform:  translateX(6%);
+            transform:  translateX(6%);
+    margin: 0;
+}
+
+.portfolio {
+    background-color: #f2f4f6;
+}
+
+.portfolio__title {
+    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.portfolio__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.portfolio__item {  
+    position: relative;
+}
+.portfolio__item:not(:last-of-type)::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #288be6;
+    border: 1px solid #86c3fa;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.portfolio__item-img-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+}
+
+.portfolio__item-img {
+    width: 100%; 
+    height: auto; 
+    -webkit-transition: all 1s;
+        -o-transition: all 1s;
+            transition: all 1s;	
+}
+
+.page-footer {
+    background-color: #00417d;
+    color: #ffffff;
+    text-align: right;
+}
+
+.page-footer__email,
+.page-footer__phone {
+    color: inherit;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: relative;
+}
+
+.page-footer__email {
+    background-image: url("../img/icon-email-footer.svg");
+}
+
+.page-footer__phone {
+    background-image: url("../img/icon-phone-footer.svg");
+}
+
+.page-footer__email::after,
+.page-footer__phone::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: opacity 0.3s, transform 0.3s;
+        transition: opacity 0.3s, transform 0.3s; 
+}
+
+.page-footer__email:hover::after,
+.page-footer__phone:hover::after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.page-footer__email:active,
+.page-footer__phone:active {
+    opacity: 0.5;
+}
+
+/*-------------------BUTTON-UP----------------------*/
+.button-up {
+	display: none;
+   position: fixed;
+   z-index: 500;
+   cursor: pointer;
+	background: none; 
+	border: none;
+	opacity: 0.7;
+}
+
+.button-up:hover {	
+	opacity: 1;
+}
+
+.button-up span {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background: var(--color-white);
+	border-radius: 50%;
+}
+
+.button-up svg {
+	width: 100%;
+	height: 100%;
+	fill: var(--color-white);
+}
+
+.button-up.button-up-show {
+  display: block;
+}
