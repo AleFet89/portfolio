@@ -13,7 +13,9 @@
 class UpButton {
   constructor() {
     this.goTop = document.querySelector("[data-button-up]");
-    this.init();
+    if (this.goTop) {
+			this.init();
+		}
   }
 
   trackScroll = () => {
