@@ -37,7 +37,7 @@
 				box-shadow: 0 1.389vw 2.778vw 0 #0769c3;
 	}
 	
-	.page-header_position {
+	.page-header--position {
 		padding: 4.167vw 0;
 	}
 
@@ -104,7 +104,7 @@
 				align-items: center;
 	}
 	
-	.intro_position {
+	.intro--position {
 		padding: 11.111vw 0 7.111vw;
 	}
 	
@@ -260,7 +260,7 @@
 				box-shadow: 0 0.651vw 1.302vw 0 #0769c3;
 	}
 	
-	.page-header_position {
+	.page-header--position {
 		padding: 1.953vw 0;
 	}
 
@@ -310,7 +310,7 @@
 		line-height: 6.250vw;
 	}
 	
-	.intro_position {
+	.intro--position {
 		padding: 5.208vw 5.208vw 6.417vw;
 	}
 	
@@ -462,7 +462,7 @@
 				box-shadow: 0 0.347vw 0.694vw 0 #0769c3;
 	}
 	
-	.page-header_position {
+	.page-header--position {
 		padding: 1.042vw 0;
 	}
 	
@@ -492,7 +492,7 @@
 		line-height: 3.333vw;
 	}
 	
-	.intro_position {
+	.intro--position {
 		padding: 2.778vw 0 5.556vw;
 	}
 	
@@ -635,7 +635,7 @@
 				box-shadow: 0 5px 10px 0 #0769c3;
 	}
 	
-	.page-header_position {
+	.page-header--position {
 		padding: 15px 0;
 	}
 	
@@ -665,7 +665,7 @@
 		line-height: 48px;
 	}
 	
-	.intro_position {
+	.intro--position {
 		padding: 40px 0 80px;
 	}
 	
