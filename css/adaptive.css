@@ -58,7 +58,7 @@
 	.page-header__email,
 	.page-header__phone {
 		padding: 2.778vw 5.556vw;
-		font-size: 5.000vw;
+		font-size: 6.000vw;
 	}
 	
 	.page-header__email {
@@ -206,7 +206,7 @@
 	.page-footer__email,
 	.page-footer__phone {
 		padding: 1.389vw 0 1.389vw;
-		font-size: 5.000vw;
+		font-size: 6.000vw;
 	}
 	
 	.page-footer__email {
