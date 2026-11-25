@@ -470,7 +470,7 @@
 	.page-header__phone {
 		margin-left: 3.889vw;
 		padding: 0.694vw 1.389vw;
-		font-size: 1.389vw;
+		font-size: 1.806vw;
 	}
 	
 	.page-header__email {
@@ -579,7 +579,7 @@
 	.page-footer__phone {
 		margin-left: 3.889vw;
 		padding: 0.347vw 0 0.347vw;
-		font-size: 1.389vw;
+		font-size: 1.806vw;
 	}
 	
 	.page-footer__email {
@@ -643,7 +643,7 @@
 	.page-header__phone {
 		margin-left: 56px;
 		padding: 10px 20px;
-		font-size: 20px;
+		font-size: 26px;
 	}
 	
 	.page-header__email {
@@ -752,7 +752,7 @@
 	.page-footer__phone {
 		margin-left: 56px;
 		padding: 5px 0 5px;
-		font-size: 20px;
+		font-size: 26px;
 	}
 	
 	.page-footer__email {
