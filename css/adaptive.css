@@ -226,8 +226,11 @@
 	}
 
 	/*-------------------BUTTON-UP----------------------*/
-	.button-up.button-up-show {
-		display: none;
+	.button-up {
+		width: 15.472vw;
+		height: 15.472vw;
+		right: 1.60vw;
+		bottom: 5.556vw;
 	}
 }
 
@@ -429,8 +432,11 @@
 	}
 
 	/*-------------------BUTTON-UP----------------------*/
-	.button-up.button-up-show {
-		display: none;
+	.button-up {
+		width: 7.472vw;
+		height: 7.472vw;
+		right: 1.60vw;
+		bottom: 5.556vw;
 	}
 }
 
